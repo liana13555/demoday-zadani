@@ -4,7 +4,507 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<title>Gold shop</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Open+Sans:wght@400;600&family=Raleway:wght@700&display=swap"
+			rel="stylesheet">
+		<link rel="stylesheet" href="./css/main.min.css">	
+		<!-- <link rel="stylesheet" href="./assets/src/css/common.css"> -->
 	</head>
-	<body></body>
+	<body>
+		<!-- Header -->
+		<header>
+			<div class="container nav-container" >
+				<nav class="main-nav">
+					<div class="logo-thumb">
+						<a href="" class="logo">LOGO</a>
+					</div>			
+				    <ul class="site-nav">
+				    	<li class="item">Produkty</li>
+				    	<li class="item">Akční nabídka</li>
+				    	<li class="item">O nás</li>
+				    	<li class="item">
+							<a class="header-link" href="#footer">Kontakt</a>
+						</li>
+				    </ul>				
+			    </nav>
+				<div class="input-thumb">
+					<label>
+			            <input class="nav-input" type="text" placeholder="Napište, co hledáte">
+				    </label>
+				    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+				    	<path
+				    		d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z"
+				    		stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+				    	<path d="M21 20.9999L16.65 16.6499" stroke="black" stroke-width="1.5" stroke-linecap="round"
+				    		stroke-linejoin="round" />
+				    </svg>
+				</div>	
+				<svg class="search-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+				  	<path
+				  		d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z"
+				  		stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+				  	<path d="M21 20.9999L16.65 16.6499" stroke="black" stroke-width="1.5" stroke-linecap="round"
+				  		stroke-linejoin="round" />
+				</svg>
+	            <div class="profile-nav">
+					<div class="currency">
+						<p>CZK</p>
+					    <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+						    <path d="M3.5 5.75L7 9.25L10.5 5.75" stroke="black" stroke-width="1.2" stroke-linecap="round"
+							stroke-linejoin="round" />
+					    </svg>
+					</div>
+	                
+	                <a class="shopping-text" href="">Košík</a>
+					<svg class="shopping-icon" width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<circle cx="10.5" cy="10.5" r="10" stroke="#8E8E8E" />
+						<path
+							d="M13.4 13.13V14H8.37V13.32L11.22 10.57C11.5667 10.2367 11.8 9.95 11.92 9.71C12.04 9.46333 12.1 9.21667 12.1 8.97C12.1 8.60333 11.97 8.32 11.71 8.12C11.4567 7.91333 11.09 7.81 10.61 7.81C9.83667 7.81 9.24 8.06333 8.82 8.57L8.14 7.98C8.41333 7.64667 8.77 7.38667 9.21 7.2C9.65667 7.01333 10.1533 6.92 10.7 6.92C11.4333 6.92 12.0167 7.09667 12.45 7.45C12.8833 7.79667 13.1 8.27 13.1 8.87C13.1 9.24333 13.02 9.59667 12.86 9.93C12.7 10.2633 12.3967 10.6433 11.95 11.07L9.81 13.13H13.4Z"
+							fill="#8E8E8E" />
+					</svg>
+					<svg class="shopping-mobile" width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<circle cx="10.5" cy="10.5" r="10" stroke="black" />
+						<path
+							d="M8.37 14V13.32L11.22 10.57C11.4733 10.33 11.66 10.12 11.78 9.94C11.9067 9.75333 11.99 9.58333 12.03 9.43C12.0767 9.27 12.1 9.11667 12.1 8.97C12.1 8.61 11.9733 8.32667 11.72 8.12C11.4667 7.91333 11.0967 7.81 10.61 7.81C10.2367 7.81 9.9 7.87333 9.6 8C9.3 8.12 9.04 8.31 8.82 8.57L8.14 7.98C8.40667 7.64 8.76333 7.38 9.21 7.2C9.66333 7.01333 10.16 6.92 10.7 6.92C11.1867 6.92 11.61 7 11.97 7.16C12.33 7.31333 12.6067 7.53667 12.8 7.83C13 8.12333 13.1 8.47 13.1 8.87C13.1 9.09667 13.07 9.32 13.01 9.54C12.95 9.76 12.8367 9.99333 12.67 10.24C12.5033 10.4867 12.2633 10.7633 11.95 11.07L9.41 13.52L9.17 13.13H13.4V14H8.37Z"
+							fill="black" />
+					</svg>
+	                <a href="" class="profile-link">
+                          <svg class="profile-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          	<path d="M12 2C6.477 2 2 6.477 2 12C2 17.523 6.477 22 12 22C17.523 22 22 17.523 22 12C22 6.477 17.523 2 12 2Z"
+                          		stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+                          	<path d="M4.271 18.346C4.271 18.346 6.5 15.5 12 15.5C17.5 15.5 19.73 18.346 19.73 18.346" stroke="black"
+                          		stroke-linecap="round" stroke-linejoin="round" />
+                          	<path
+                          		d="M12 12C12.7956 12 13.5587 11.6839 14.1213 11.1213C14.6839 10.5587 15 9.79565 15 9C15 8.20435 14.6839 7.44129 14.1213 6.87868C13.5587 6.31607 12.7956 6 12 6C11.2044 6 10.4413 6.31607 9.87868 6.87868C9.31607 7.44129 9 8.20435 9 9C9 9.79565 9.31607 10.5587 9.87868 11.1213C10.4413 11.6839 11.2044 12 12 12V12Z"
+                          		stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+                          </svg>
+	            	</a>
+					<svg class="lines-mobile" width="49" height="14" viewBox="0 0 49 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<rect width="49" height="2" fill="black" />
+						<rect y="12" width="49" height="2" fill="black" />
+					</svg>
+
+                </div>			
+	        </div>			
+		</header>
+		<!-- Hero -->
+		<section class="hero">
+			<div class="container">
+		    	<p class="hero-pretitle">Lorem ipsum dolor sit</p>
+		    	<h2 class="title hero-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+                <a href="" class="button btn-hero">Zobrazit</a>
+		    </div>
+		</section>
+		<!-- Shop -->
+		<section class="shop">
+			<div class="container">
+				<ul class="shop-list">
+		    	    <li class="shop-card first-card">
+                        <h2 class="shop-title title">Lorem ipsum dolor sit amet consectetur</h2>
+                        <a href=""class="button buy">Nakupuj</a>
+		    	    </li>
+		    	    <li class="shop-card second-card">
+		    	        <h2 class="shop-title title">Lorem ipsum dolor sit amet consectetur</h2>
+						<a href="" class="button buy">Nakupuj</a>
+		    	    </li>
+		    	    <li class="shop-card third-card">
+		    	    	<h2 class="shop-title title">Lorem ipsum dolor sit amet consectetur</h2>
+						<a href="" class="button buy">Nakupuj</a>
+		    	    </li>
+		        </ul>
+			</div>
+		    
+	    </section>
+		<!-- Our offer -->
+		<section class="offer">
+			<div class="container offer-container">
+    			<h2 class="title offer-title">Vyberte si z naši nabídky</h2>
+    			<ul class="offer-list">
+    				<li class="offer-card">
+						<div class="offer-block">
+							<p class="offer-pretitle">Investiční</p>
+    					    <p class="title">Zlaté mince</p>
+						</div>
+    				</li>
+    				<li class="offer-card">
+						<div class="offer-block">
+							<p class="offer-pretitle">Investiční</p>
+    					    <p class="title">Zlaté slitky</p>
+						</div>    					
+    				</li>
+    				<li class="offer-card">
+						<div class="offer-block">
+							<p class="offer-pretitle">Historické</p>
+    					    <p class="title">Zlaté mince</p>
+						</div>    					
+    				</li>
+    				<li class="offer-card">
+						<div class="offer-block offer-last">
+							<p class="offer-pretitle">Pamětní</p>
+    					    <p class="title">Zlaté mince ČNB</p>
+
+						</div>    					
+    				</li>				
+    			</ul>			
+    			<button type="button" class="btn-more offer-btn">Zobrazit více     
+    				<svg class="btn-icon" width="31" height="16" viewBox="0 0 31 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+    					<path d="M22 15L30 8L22 0.999999" stroke="#131313" stroke-linecap="round" stroke-linejoin="round" />
+    					<path d="M30 8L1 8L30 8Z" fill="#131313" />
+    					<path d="M30 8L1 8" stroke="#131313" stroke-linecap="round" stroke-linejoin="round" />
+    				</svg>    
+    			</button>
+		    </div>
+		</section>
+		<!-- Our e-shop -->
+        <section class="e-shop">
+			<div class="container eshop-container">
+				<ul class="btn-list">
+    				<li class="btn-item">
+    					<button class="eshop-btn news" type="button">Novinky</button>
+    				</li>
+    				<li class="btn-item">
+    					<button class="eshop-btn bestSell" type="button">Nejprodávanější</button>
+    				</li>
+    				<li class="btn-item">
+    					<button class="eshop-btn recommend" type="button">Doporučené</button>
+    				</li>
+			    </ul>
+				<ul class="js-eshop-container"></ul>
+				<button class="btn-products" type="button">Zobrazit více produktů</button>
+			</div>
+		</section>	
+		<!-- Our blog -->
+		<section class="blog">
+			<div class="container blog-container">			
+		    	<h2 class="title blog-title">Přečtěte si z našeho blogu</h2>
+		    	<ul class="blog-list">
+		    		<li class="blog-card first-blog" >
+		    			<a href="">		
+		    				<div class="blog-info">		
+		    			        <p class="blog-date">20.12.2021</p>
+		    			        <h2 class="blog-name title">Lorem Ipsum</h2>
+		    			        <div class="blog-author">
+		    			        	<svg class="blog-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+		    			        		<path d="M12 2C6.477 2 2 6.477 2 12C2 17.523 6.477 22 12 22C17.523 22 22 17.523 22 12C22 6.477 17.523 2 12 2Z"
+		    			        			stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+		    			        		<path d="M4.271 18.346C4.271 18.346 6.5 15.5 12 15.5C17.5 15.5 19.73 18.346 19.73 18.346" stroke="white"
+		    			        			stroke-linecap="round" stroke-linejoin="round" />
+		    			        		<path
+		    			        			d="M12 12C12.7956 12 13.5587 11.6839 14.1213 11.1213C14.6839 10.5587 15 9.79565 15 9C15 8.20435 14.6839 7.44129 14.1213 6.87868C13.5587 6.31607 12.7956 6 12 6C11.2044 6 10.4413 6.31607 9.87868 6.87868C9.31607 7.44129 9 8.20435 9 9C9 9.79565 9.31607 10.5587 9.87868 11.1213C10.4413 11.6839 11.2044 12 12 12V12Z"
+		    			        			stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+		    			        	</svg>
+		    						<p class="author-info">Lukáš | 0 Coments</p>					        	
+		    			        </div>
+		    			    </div>	
+		    		    </a>
+		    		</li>
+					<li class="blog-card second-blog">
+						<a href="">
+							<div class="blog-info">
+								<p class="blog-date">20.12.2021</p>
+								<h2 class="blog-name title">Lorem Ipsum</h2>
+								<div class="blog-author">
+									<svg class="blog-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M12 2C6.477 2 2 6.477 2 12C2 17.523 6.477 22 12 22C17.523 22 22 17.523 22 12C22 6.477 17.523 2 12 2Z"
+											stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+										<path d="M4.271 18.346C4.271 18.346 6.5 15.5 12 15.5C17.5 15.5 19.73 18.346 19.73 18.346"
+											stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+										<path
+											d="M12 12C12.7956 12 13.5587 11.6839 14.1213 11.1213C14.6839 10.5587 15 9.79565 15 9C15 8.20435 14.6839 7.44129 14.1213 6.87868C13.5587 6.31607 12.7956 6 12 6C11.2044 6 10.4413 6.31607 9.87868 6.87868C9.31607 7.44129 9 8.20435 9 9C9 9.79565 9.31607 10.5587 9.87868 11.1213C10.4413 11.6839 11.2044 12 12 12V12Z"
+											stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+									<p class="author-info">Lukáš | 0 Coments</p>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li class="blog-card third-blog">
+						<a href="">
+							<div class="blog-info">
+								<p class="blog-date">20.12.2021</p>
+								<h2 class="blog-name title">Lorem Ipsum</h2>
+								<div class="blog-author">
+									<svg class="blog-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M12 2C6.477 2 2 6.477 2 12C2 17.523 6.477 22 12 22C17.523 22 22 17.523 22 12C22 6.477 17.523 2 12 2Z"
+											stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+										<path d="M4.271 18.346C4.271 18.346 6.5 15.5 12 15.5C17.5 15.5 19.73 18.346 19.73 18.346"
+											stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+										<path
+											d="M12 12C12.7956 12 13.5587 11.6839 14.1213 11.1213C14.6839 10.5587 15 9.79565 15 9C15 8.20435 14.6839 7.44129 14.1213 6.87868C13.5587 6.31607 12.7956 6 12 6C11.2044 6 10.4413 6.31607 9.87868 6.87868C9.31607 7.44129 9 8.20435 9 9C9 9.79565 9.31607 10.5587 9.87868 11.1213C10.4413 11.6839 11.2044 12 12 12V12Z"
+											stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+									<p class="author-info">Lukáš | 0 Coments</p>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li class="blog-card fourth-blog">
+						<a href="">
+							<div class="blog-info">
+								<p class="blog-date">20.12.2021</p>
+								<h2 class="blog-name title">Lorem Ipsum</h2>
+								<div class="blog-author">
+									<svg class="blog-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M12 2C6.477 2 2 6.477 2 12C2 17.523 6.477 22 12 22C17.523 22 22 17.523 22 12C22 6.477 17.523 2 12 2Z"
+											stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+										<path d="M4.271 18.346C4.271 18.346 6.5 15.5 12 15.5C17.5 15.5 19.73 18.346 19.73 18.346"
+											stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+										<path
+											d="M12 12C12.7956 12 13.5587 11.6839 14.1213 11.1213C14.6839 10.5587 15 9.79565 15 9C15 8.20435 14.6839 7.44129 14.1213 6.87868C13.5587 6.31607 12.7956 6 12 6C11.2044 6 10.4413 6.31607 9.87868 6.87868C9.31607 7.44129 9 8.20435 9 9C9 9.79565 9.31607 10.5587 9.87868 11.1213C10.4413 11.6839 11.2044 12 12 12V12Z"
+											stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+									<p class="author-info">Lukáš | 0 Coments</p>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li class="blog-card fifth-blog">
+						<a href="">
+							<div class="blog-info">
+								<p class="blog-date">20.12.2021</p>
+								<h2 class="blog-name title">Lorem Ipsum</h2>
+								<div class="blog-author aaa">
+									<svg class="blog-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M12 2C6.477 2 2 6.477 2 12C2 17.523 6.477 22 12 22C17.523 22 22 17.523 22 12C22 6.477 17.523 2 12 2Z"
+											stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+										<path d="M4.271 18.346C4.271 18.346 6.5 15.5 12 15.5C17.5 15.5 19.73 18.346 19.73 18.346"
+											stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+										<path
+											d="M12 12C12.7956 12 13.5587 11.6839 14.1213 11.1213C14.6839 10.5587 15 9.79565 15 9C15 8.20435 14.6839 7.44129 14.1213 6.87868C13.5587 6.31607 12.7956 6 12 6C11.2044 6 10.4413 6.31607 9.87868 6.87868C9.31607 7.44129 9 8.20435 9 9C9 9.79565 9.31607 10.5587 9.87868 11.1213C10.4413 11.6839 11.2044 12 12 12V12Z"
+											stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+									<p class="author-info">Lukáš | 0 Coments</p>
+								</div>
+							</div>
+						</a>
+					</li>
+			    </ul>
+				<button type="button" class="btn-more blog-btn">Zobrazit více
+					<svg class="btn-icon" width="31" height="16" viewBox="0 0 31 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M22 15L30 8L22 0.999999" stroke="#131313" stroke-linecap="round" stroke-linejoin="round" />
+						<path d="M30 8L1 8L30 8Z" fill="#131313" />
+						<path d="M30 8L1 8" stroke="#131313" stroke-linecap="round" stroke-linejoin="round" />
+					</svg>				
+				</button>
+		    </div>
+		</section>
+		<!-- Delivery & payment -->
+		<section>
+			<div class="container delivery-container">
+				<ul class="delivery-list">
+				<li class="item-delivery">
+					<div class="item-list delivery">
+						<svg width="60" height="61" viewBox="0 0 60 61" fill="none" xmlns="http://www.w3.org/2000/svg"
+							xmlns:xlink="http://www.w3.org/1999/xlink">
+							<rect y="0.5" width="60" height="60" fill="url(#pattern0)" />
+							<defs>
+								<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+									<use xlink:href="#image0_2_494" transform="scale(0.0111111)" />
+								</pattern>
+								<image id="image0_2_494" width="90" height="90"
+									xlink:href="data:image/png;base64,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" />
+							</defs>
+						</svg>
+					    <p class="delivery-text">Doprava zdarma na vše od 5 000Kč</p>
+				    </div>
+				</li>
+				<li>
+					<div class="item-list fix-price">
+						<svg width="60" height="61" viewBox="0 0 60 61" fill="none" xmlns="http://www.w3.org/2000/svg"
+							xmlns:xlink="http://www.w3.org/1999/xlink">
+							<rect y="0.5" width="60" height="60" fill="url(#pattern0)" />
+							<defs>
+								<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+									<use xlink:href="#image0_2_500" transform="scale(0.0111111)" />
+								</pattern>
+								<image id="image0_2_500" width="90" height="90"
+									xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAABmJLR0QA/wD/AP+gvaeTAAAN8ElEQVR4nO2ce3BU9RXHv+fubl6QELK7JFCs4OCjUgWa7IaHCtQHD9kkYEGxUis+YKy1duyoUx+16jgdKdXRqQjV1tGpj6jA7kJARQiWh8kmQGmtFRDwhST7CEaSbJK7v9M/stSQvXdz783dJZ3uZ2b/2N/vnnN+9+xvf/f3OOcCGTJkyJAhQ4YMGTJkyDBIoTPdgGRw9UJLOPvoPSBcQ0xbiwryfk0za2W9ekI+Vx3AdRKwqS1qqz1r0e6OVLQ3GYPW0UHvpFEgazUB03oV13Zb5UUj5+4N6tEV8rs/AHN5/GsHA7UE2iRY3jSics8h81qtjjUdRowgkfUSPt3JADAjS7ZcBuAtXcoEHwLhlKNzCZgD8ByJLAj7XIcBbAHTFgHbZmflzm9MaH4CaXf059VTcvNyYxOLOtoaadGHXWrXMThb6Q8nIHXqtcmgQwRWqcM5AG4D8W2Ero6gz5WS3p5WR4drykezLO9hhjOck9ca9Lk2RaPWm5TGTAZ9RkAngOxexR1s4S90G5b4oIqf+3Jabw/53IcAscmMsV0yKmgEIYs1AJzxrwUEXJuX23210rXOisB2JjEVoE/jRR/GiKaMuDqwT69digmDPZPHAfRzAarJzZEjIb/r3ZDPfW9wQ3mpXk1pc3TYVz65p7ecDrN0g5qM09O4h9l2kcTSBHu0/QfFnvq/G7Fty8k6aESuDzlgXAHwYyREef+Xn07aho6i6Mk94Zy8CICi3uXM4pNkcvGH0/6B2B42e3ck5HMl2DZACwQWOaoCW/QKpq1H06IPu4gTZgsHuyV+MD0NoIH1asYBttBkI04G0jxGFxUMuR2gywE8DeBFElLVKE9je1qMCzY+gyBssVqyJzuvrj9gVEVaZx3xVd3W+CetJJviJYOANUXHxB20bEf3QOyb5ujghvJSEnwFgAJi8Ym9suHPZuk2Be1TvP/C4BccFQ3LzDBvyhI84i2/WJCoA5ATL2ImLHF6An81Q78ZhNaXlkOSPtAp1s6SdJlzXl3jQO2bMkYLSczFt04GACLG81/VTHKqyaQbg1O8PBLCF64pHz1Q++Y8DBlTFUo7Sur3hk3RbwLDZu+OAIgYEB3FsqjmbTMGNMya5eiEhQSBdtPDEKboN4vkU7xXALSp1E2JnDx5/0BMm+Joe0XgIZy+oxYhFo+bodtUlKd4Mhi3OyoCP2bCYgAxJVFmeiDkL3MbNW2Ko4nAHVHrklhMjMuSyWHPH1JcVNmw0wzdZsKgvo5uAWG2ozKwCgCcnoCfiO5REbeC6Y/8sDGfDdqN/76EfC7FyZmjIqD5HkJe1w0gvNzzjQ6BYh6Hp/Hfva9hBoX9Li8Aj5IOIiy1ewJ/0dzwOGldGZ5xWPSM0YQtVinL3dfJQM+/U5ZttwBoVlTBePz42xcP0Wv6/8rR8Snes/ahQ+YUztvRonZdyYJdzQDuVau2duYs1Wvb0NDRsm5iIVstBUWexs+MyBvBjKFDD8yg8Ab37l5njd/WAUcc+UPO03NQrKtHN290lYT8rqdiFttngqUDYb/r9yc2XDJcjw4jfF49JVet7pi/NC8VNonAzKzYqwkYG/mmbYEefbocLcXoOTB+ASAfQDYz7pa58zd6dOgh6HNND/nK1uXmyCG1a7JYCod8Ll/I5/6h2fadFYHtAHYr19KNenTpG6OZv5dYhnN06dBAuKa8IOhzvU5ALUBVAJL12hwAHoDfC/lcb7asm1hoamOInlAqZuIrW/2lDq1qdDmaCYcVige8D9Cb5urxQ1kWWwlYZED8mpjV9r6Zw5l9aN4GAIlxJAxbJyw/0qpH39DB2NW3jMAv6dHRr42cvKcBJDv8jEBl6gUAYFwki6hpW7Q0s1YGo1qxjjFbqx5djrZXBh6Nn5DUE+E1ZnLZKxqe0qMjGUFv2fkAlMa+JoDutMS6hzsqAnZHRaBYRNvzifnmXqfkvaCq5g3uS81qFxPeUKm5VOtKcVCtDEM+9/0AP9anuBMkJiotLoBTsSK8A+Cze5cTaLW9on65Ge06WDMue7g8PAKFZ4XE0oSiyrp+D48H2YKFJyWUANvUnAwA9rl1X4CRMPNhsO7YCzXOnXuoEyqzDyZ2adEx2GLvEh5iRP23kWFbS6Lry95lkkVEzWwYQHUAX55om8/VIj3IHM2tCaMZ49KIt2xast3AeOyHoTAA7U3DAcWBlnGeFnF90zsGMaduXGeQ0liXLYi2hPyup5r87gmptJ8MYlY8NGDSto7Q1Ohj/tK8bLb8gcE/6RGil9qjll+aHdAdP+Tdl7RdhK8A7GBGPTPqOzutgXQElresmzwmZokdUWjQp46K+jH9yWvq0VksrWDwMgC5AHIZvCw3W16ht7H9UVRZtx+E5PNyxkgwFhKwQiJsz82RW0I+17ag3708Ul06zOw2ncLCQiVumodqkdc6dFyfUEIKZSYgZ3X+DMC7OkSyAcwg5lUiRzoc8pbdkYrhJV9uUwtQz9cir9XRSnsNw7l6fJZGec2UzNrfZs8fMhdM94LwtU7xIhA9E97gft5sZx8a2qmmT1NYjlZHK/6a31iHaPo19UIza2VHZf0TclbndwDchJ6Vmfa8FealIX/ZbWa2qTg2TPFeWcU3fdE6vfsGgL1vYYykfAApi90ombW/DcCL8Q+aNrjOkQSXE1E5GFcCuFBNlkD3M2MNGQm4U0CwJV+l85rnaAa3klI+iYVLABzVosMMiucFDgM4DOBVoMfx1hjuY8LNSPx3ntWysWw80PBPM2zHBI9U+v9LrG1407ghIilMawAm1jRZTxXF8wKH7ZWB2wB6SKk+JqR+p11aYUl5YcKAom/6om3oIPExWOFZwDhfk7wGjq+dOsIqdV/cu0yyiGiRp3FHf7IxpuctlLAZBSLYzGofoHKvhI+1CGtyNAl8rORnsHkbNxZb14VgOm1aJ1iSm7zlo4sr65qSyWYT5ymdklKMk8rpRO1eNTla09AhLBblJB2iaby61JRek2Wz7Qehb7C31QKxKtk0khkkA79VqIq2d1n3mtG2uP2+yaUAAMGsKYFJk6Md7d/dB+CEQhOGtpSQ4Xi03sSjPTclVBDmh3PzGsLesqW9w4CP+UvzIr6yOWG/ayvASxKbhrfMWpoHs/MmQ3ktEXHubTDP0bTojRhA25XqWKL5WnRoakxMPICeJM4+RnARE71gk63NIZ+rPeRzHc9iqU2AagDMUGjxSSFJSr3cEERQu8darRGzenbv3lMqZOB6rl5o0aFHlaKqxn8AfCtUIjrj5AIoTlLfRRA/HeGpMyO3ELxthpWAxcqV2rdmNTuaufstKDmAMbIl58hVWvX0h6Oi4WVizANDdyoyA0eYpdn2igZ9SflJCLW2z4LyDyvHIK3Vqkezo52Ve4+p/YICdLdWPVqwVwY2yzmdFxDjLmLsQ/L9BAGgAYzbu0l831lZt83MthDxrxTLQe/0Nxs6/XodBP3u64lZMQGIIE2xV9TpTcbRxPG1U0dYrd2KN5Ulk6NgQX1KtgEi3rJpgkhxHs/Mi52VDa9p1aXrhOXk0Ly1AI4pGoZ4RI8uPcSjOxVJlZMBQBCp3dOXJ2wn1unRpcvRY2fWRolopUr1lWF/mebIncFO0Ft2HQDFeD5irIifjGtGd7hBd1Z0NQOKQYcs6Mmgd1pKtk7TSbimvCBJh2rqlMSf9OrU7eiSWfvbJEbCvgIAgDCaqOs5vToHG/H3ioxSrCR+1Ej+uqFTCK5eaIlkH21gwkRlpXSLvaL+BSO6zzRBv3s5Ma9Sqd5jj45x9yzg9GH4uCfsd09h5p0qOjqERLNGzKv/m1H9Z4KgzzWdgM04PQv4FALEUxyehnojug2HhNk99bsZpBbgmCsJ9kXWl15kVH+6afK7JxDBC2Ung5hWGnUyMMDYO0e07T4AasYLhUV6+3/B2U1+9wQL82YwlMMVCLuKjsfOXOYsLfqwyxKzXAtAOcOJMVJI0vtmhtCaTdDnmm4BbwdQonJJWIJYTMsaB/S+jgFHkw6f/8FRwagCoBZUWCgJfifodd06UFtmE/S7lxOg3pOBDolElRnZZ6bFPoT87iowvwkg2U7eK8xZy1P1tkSthGvKC4Qs1hBwbZLLYsy8wFnZ4DPDpmnx0Q5P/XoAtyD5Fuf1hK5/hb3uhWbZ1UvQW3Ydy+Kjfpwsg+lms5wMpCDiP96zX4XK07uX5S0EesjuqVdJLzOX+AbRI1BZVveig5mvM9PJQIpSK5q9rsskwnooBJYrsFUQr3R2jH3byEIgGbxthjXU2j4rvtWpcBKTQDg+Jvd78q6XlMUat2ycdHZM2F5XSvFV4TiDXmUJ65ztbXXJXhCbDK4enxXMzptMhPnxk5FkpzHfQtglQSxOVdp1SoO6eXWpLVRCvyOiu6DvedAG8E6A9hDhAFj6SJZEc47VeqKgtfUkALQWFAyNynKhlakY4Au4J/K+FD2n1XrSlgUxrSw6Hrt/oFO4ZKQler7nVW3iWQCmnJibBTH2QaLb0/GcSEtWlnNeXaM9OmYqQHdCT1Ro6mgG8R1FnWPK0vUwTns+yMGacdmF8vAbifEgyNz0Zg00AfRkF8WeSdurOuOcsYTOHocXLgBoCQFXIflCZyDIBHpHsHj5hO3EOr0nI2YxKDJnmze6SiTB10DQ5SBMx8BfPxwBUAvGlhiktXpOq1PFoHB0b/hhSMFJZRMsEk1kxnlgnE/AWBAKGCgEcCo55yQBJxj4Gj2hswcAfCws2OcMBPYPunfuZciQIUOGDBkyZMiQIcNg5T+KkEd2moctTwAAAABJRU5ErkJggg==" />
+							</defs>
+						</svg>
+
+
+						<p class="delivery-text">Okamžitá fixace cen <br> do 150 000 Kč</p>
+					</div>
+				</li>
+				<li>
+					<div class="item-list payment">
+						<svg width="60" height="61" viewBox="0 0 60 61" fill="none" xmlns="http://www.w3.org/2000/svg"
+							xmlns:xlink="http://www.w3.org/1999/xlink">
+							<rect y="0.5" width="60" height="60" fill="url(#pattern0)" />
+							<defs>
+								<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+									<use xlink:href="#image0_2_506" transform="scale(0.0111111)" />
+								</pattern>
+								<image id="image0_2_506" width="90" height="90"
+									xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAABmJLR0QA/wD/AP+gvaeTAAACkElEQVR4nO3bMU9TURQH8P99vEQSCBHK2BEWNTDpW5mb6ujgB5BJPwuOuOsHMNKVERsXSNRFEhbcbJ6praSm9jIoi+GVnpv7Tu+9/H8j9J6e/nP7evuaAxARERERERERpcO4Ljw73Flc6Q93rcEzAPcBLAlLDGHMJ8C+LRfK/c3W6ci1l2lC6dMp6F6naE7Gfw4MzJbL+v9Z4CTLs3aj1T33Ue9KSH1m0gVnhzuLPpsHAANsT8aT9187G3d81QytT3HQK/3hrs/mrxhge3W89txXvdD6FAf971pXE+utdmh9ioMGzD35mplrP/BYK6g+c/mT2OXr/rr+5KPog/X7u4d21trVj5/2vPPps4rDjiYXDFqJw6XjZvK3+Xxo9skdrYRBK6nl0lGH0C47UtzRShi0klouHbG8zTX75I5WwqCVOFw6zOC67/pVh3+hftU/5F8u5tNnFYcdbb/I18zMY+2w+pQHbfBGvGZW1vqrHVif4qDLhXLfAifSdTcxFseN0cVrX/VC61Mc9GbrdJTlWdvnizAWxzbL2+bp59++aobWp9Opo9Hqnv/IywIwLwF8+PvBI2UGAI5g7Yu10a9i/fHRN5deUuiTiIiIyB9vtwml9yJif7wU794pYdBKGLQSBq2EQSuJ4kfUaWI5jXBHK2HQShi0EgathEEriWZyNpbTRRWnHd3rFM3ln4OuNdgD8AjykAFgCdYWsHh1d7za7XWKpksvsUh2cjY0yU7OhibZydnQJDw5G5ZoJmdj/+WF52glDFrJrZ6c1cQdrYRBK4lmcjaW00UV7mglDFrJrZ6c1cQdrYRBK4lmcjaW00WVhCdnw5Lu5Gxgkp2cDU2yk7OhSXpyloiIiIiIiIiI6nEJOUOEnOUzvbEAAAAASUVORK5CYII=" />
+							</defs>
+						</svg>
+
+
+
+						<p class="delivery-text">Možnost platby pomocí QR kódu</p>
+					</div>
+				</li>
+				<li>
+					<div class="item-list">
+						<svg width="60" height="61" viewBox="0 0 60 61" fill="none" xmlns="http://www.w3.org/2000/svg"
+							xmlns:xlink="http://www.w3.org/1999/xlink">
+							<rect y="0.5" width="60" height="60" fill="url(#pattern0)" />
+							<defs>
+								<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+									<use xlink:href="#image0_2_494" transform="scale(0.0111111)" />
+								</pattern>
+								<image id="image0_2_494" width="90" height="90"
+									xlink:href="data:image/png;base64,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" />
+							</defs>
+						</svg>
+						<p class="delivery-text">Vykupujeme historické i novodobé mince</p>
+					</div>
+				</li>
+			</ul>
+			</div>
+			
+		</section>
+		<!-- Newsletter -->
+		<section class="newsletter">
+			<div class="container">			
+			    <h2 class="title newsletter-title">Zůstaňtě s námi v kontaktu</h2>
+			    <form>
+			    	<input class="newsletter-input" type="text" placeholder="@Zadej svuj email">
+			    	<button type="submit" class="btn-more newsletter-btn">Odeslat
+					    <svg class="btn-icon" width="48" height="14" viewBox="0 0 31 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+					    	<path d="M22 15L30 8L22 0.999999" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" />
+					    	<path d="M30 8L1 8L30 8Z" fill="#FFFFFF" />
+					    	<path d="M30 8L1 8" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" />
+					    </svg>				
+				    </button>
+			    </form>
+		</div>
+		</section>
+		<!-- Footer -->
+		<footer class="footer" id="footer">
+			<div class="container">
+				<div class="logo-thumb footer-logo">
+					<a href="" class="logo">LOGO</a>
+				</div>
+			    <div class="footer-thumb">
+			    	<div class="conditions-thumb">
+    		    		<h4 class="footer-title">Jak nakoupit</h4>
+    		    		<ul>
+    		    			<li>
+								<a class="footer-link" href="">Platební podmínky</a>
+							</li>
+    		    			<li>
+								<a class="footer-link" href="">Fixační podmínky</a>
+							</li>
+    		    			<li>
+								<a class="footer-link" href="">Dodací a skladovací podmínky</a>
+							</li>
+    		    			<li>
+								<a class="footer-link" href="">Obchodní podmínky</a>
+							</li>
+    		    			<li>
+								<a class="footer-link" href="">Ochrana osobních údajů</a>
+							</li>
+    		    			<li>
+								<a class="footer-link" href="">Reklamace</a>
+							</li>
+    		    		</ul>
+			        </div>
+			    	<div class="orders-thumb">
+			    	    <h4 class="footer-title">Vaše objednávky</h4>
+			    	    <ul>
+			    	    	<li>Stav objednávky</li>
+			    	    	<li>Stav poštovní zásilky</li>
+			    	    	<li>Přehled služeb a benefitů</li>
+			    	    	<li>Výkupní podmínky</li>
+			    	    	<li>Nejčastější dotazy</li>
+			    	    	<li>Grafy investičních kovů</li>
+			    	    </ul>
+			        </div>
+			    	<div class="firm-thumb">
+			    	    <h4 class="footer-title">O společnosti</h4>
+			    	    <ul>
+			    	    	<li>Základní informace</li>
+			    	    	<li>Pobočky</li>
+			    	    	<li>Kontakty</li>
+			    	    	<li>Partneři</li>
+			    	    	<li>Blog</li>
+			    	    	<li>Kariéra</li>
+			    	    </ul>
+		         	</div>
+					<div>
+        				<h4 class="footer-title">Kontakt</h4>
+                        <ul>	
+        					<li class="media-items">
+        						<a href="">
+                                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    	<path
+                                    		d="M17 2.85205H7C4.23858 2.85205 2 5.09674 2 7.86571V17.893C2 20.662 4.23858 22.9067 7 22.9067H17C19.7614 22.9067 22 20.662 22 17.893V7.86571C22 5.09674 19.7614 2.85205 17 2.85205Z"
+                                    		stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    	<path
+                                    		d="M16 12.2478C16.1234 13.0823 15.9813 13.9346 15.5938 14.6834C15.2063 15.4323 14.5932 16.0395 13.8416 16.4188C13.0901 16.7981 12.2385 16.9301 11.4078 16.7961C10.5771 16.6621 9.80977 16.2688 9.21485 15.6723C8.61993 15.0757 8.22774 14.3063 8.09408 13.4733C7.96042 12.6404 8.09208 11.7864 8.47034 11.0329C8.8486 10.2793 9.4542 9.66449 10.201 9.27594C10.9478 8.88738 11.7978 8.74484 12.63 8.86858C13.4789 8.99481 14.2649 9.39147 14.8717 9.99997C15.4785 10.6085 15.8741 11.3965 16 12.2478Z"
+                                    		stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    	<path d="M17.5 7.3645H17.51" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+        						</a>
+								<a href="">
+									<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M18 2.85254H15C13.6739 2.85254 12.4021 3.38076 11.4645 4.32101C10.5268 5.26125 10 6.53649 10 7.8662V10.8744H7V14.8853H10V22.9072H14V14.8853H17L18 10.8744H14V7.8662C14 7.60026 14.1054 7.34521 14.2929 7.15716C14.4804 6.96911 14.7348 6.86347 15 6.86347H18V2.85254Z"
+											stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+        						</a>
+        					<li class="mobile-item">
+								<svg class="mobile-icon" width="24" height="26" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M22 17.9335V20.9417C22.0012 21.221 21.9441 21.4974 21.8325 21.7533C21.721 22.0092 21.5573 22.2388 21.3521 22.4276C21.1469 22.6164 20.9046 22.7602 20.6408 22.8496C20.3769 22.9391 20.0974 22.9723 19.82 22.9472C16.7429 22.6119 13.787 21.5575 11.19 19.8688C8.77385 18.3293 6.72536 16.2752 5.19002 13.8524C3.5 11.2365 2.44827 8.25815 2.12002 5.15871C2.09504 4.88142 2.1279 4.60195 2.21653 4.3381C2.30515 4.07424 2.4476 3.83178 2.63479 3.62616C2.82199 3.42053 3.04983 3.25624 3.30382 3.14374C3.5578 3.03125 3.83237 2.97302 4.11002 2.97275H7.11002C7.59533 2.96796 8.06582 3.14029 8.43379 3.45761C8.80176 3.77493 9.0421 4.21559 9.11002 4.69745C9.23665 5.66014 9.47147 6.60538 9.81003 7.51513C9.94457 7.87403 9.97369 8.26409 9.89393 8.63907C9.81418 9.01406 9.62889 9.35826 9.36002 9.6309L8.09002 10.9044C9.51358 13.4148 11.5865 15.4933 14.09 16.9208L15.36 15.6473C15.6319 15.3777 15.9752 15.1919 16.3491 15.1119C16.7231 15.032 17.1121 15.0612 17.47 15.1961C18.3773 15.5355 19.32 15.771 20.28 15.898C20.7658 15.9667 21.2094 16.212 21.5266 16.5873C21.8437 16.9627 22.0122 17.4418 22 17.9335Z"
+										stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+								</svg>
+        					    <a class="footer-link" href="tel:+421919163181" class="link">+421919163181</a>
+        				    </li>
+                        	<li class="email-item">
+								<svg class="email-icon" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M3.66665 3.58032H18.3333C19.3416 3.58032 20.1666 4.36997 20.1666 5.3351V15.8638C20.1666 16.8289 19.3416 17.6186 18.3333 17.6186H3.66665C2.65831 17.6186 1.83331 16.8289 1.83331 15.8638V5.3351C1.83331 4.36997 2.65831 3.58032 3.66665 3.58032Z"
+										stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+									<path d="M20.1666 5.33521L11 11.4769L1.83331 5.33521" stroke="white" stroke-width="1.5" stroke-linecap="round"
+										stroke-linejoin="round" />
+								</svg>
+        					    <a class="footer-link" href="mailto:info@constantinvest.com" class="link">info@constantinvest.com</a> 
+        				    </li>
+                        </ul>
+			        </div>
+			    </div>
+      			<div class="rights-thumb">
+      				<p class="rights-text">Copyright 2021 Constant Invest</p>
+      				<p>vytvoril Shoptet | 
+      					<span>
+							<svg class="miranda-icon" width="31" height="26" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+								<path fill="url(#a)" d="M0 .735h31v25.068H0z" />
+								<defs>
+									<pattern id="a" patternContentUnits="objectBoundingBox" width="1" height="1">
+										<use xlink:href="#b" transform="matrix(.03235 0 0 .04 -.001 0)" />
+									</pattern>
+									<image id="b" width="31" height="25"
+										xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAZCAYAAADJ9/UkAAAACXBIWXMAAC4jAAAuIwF4pT92AAAGgmlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNi4wLWMwMDYgNzkuZGFiYWNiYiwgMjAyMS8wNC8xNC0wMDozOTo0NCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIyLjQgKFdpbmRvd3MpIiB4bXA6Q3JlYXRlRGF0ZT0iMjAyMS0xMS0yNVQxMzozMjo1NCswMTowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAyMS0xMS0yNVQxMzozMjo1NCswMTowMCIgeG1wOk1vZGlmeURhdGU9IjIwMjEtMTEtMjVUMTM6MzI6NTQrMDE6MDAiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NGY1ZDI0NTEtOTY1Yy1kMzQwLThlNDYtOTMxNzJiOGY1YzcyIiB4bXBNTTpEb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6M2Q4MzVhMTItMGMyMy04MDQ5LWFiNDItNzIzYzE5ODVmOGRhIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6YWY0NjEyNWItYzlmYS03NDQzLTk0OWYtOTdlYTgwZTc1MTViIiBwaG90b3Nob3A6Q29sb3JNb2RlPSIzIiBwaG90b3Nob3A6SUNDUHJvZmlsZT0ic1JHQiBJRUM2MTk2Ni0yLjEiIGRjOmZvcm1hdD0iaW1hZ2UvcG5nIj4gPHhtcE1NOkhpc3Rvcnk+IDxyZGY6U2VxPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0iY3JlYXRlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDphZjQ2MTI1Yi1jOWZhLTc0NDMtOTQ5Zi05N2VhODBlNzUxNWIiIHN0RXZ0OndoZW49IjIwMjEtMTEtMjVUMTM6MzI6NTQrMDE6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCAyMi40IChXaW5kb3dzKSIvPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0ic2F2ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6NGY1ZDI0NTEtOTY1Yy1kMzQwLThlNDYtOTMxNzJiOGY1YzcyIiBzdEV2dDp3aGVuPSIyMDIxLTExLTI1VDEzOjMyOjU0KzAxOjAwIiBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZG9iZSBQaG90b3Nob3AgMjIuNCAoV2luZG93cykiIHN0RXZ0OmNoYW5nZWQ9Ii8iLz4gPC9yZGY6U2VxPiA8L3htcE1NOkhpc3Rvcnk+IDxwaG90b3Nob3A6RG9jdW1lbnRBbmNlc3RvcnM+IDxyZGY6QmFnPiA8cmRmOmxpPnhtcC5kaWQ6NjczYjk1OTktMDllNC00ZTkwLTllNmUtZjA5MWI3YWZmM2Y5PC9yZGY6bGk+IDwvcmRmOkJhZz4gPC9waG90b3Nob3A6RG9jdW1lbnRBbmNlc3RvcnM+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+azAdwwAAA2BJREFUSImt1stvllUQBvBf64cRSinWAN4wysVqjIkRTYqg0ahx4cJooomKG93oQv8Dl26UjYqJ0Z3uXLgwMREiGm8J3pEYUCqJIFC5FEpbQRAcFzPN91JLS62TvHnPk5kz8533mXnOJyL2RtrBiOiPiC2FT0ZEX0SYxbM8Io5Xvm8q//7CezoxX9p8XIB5hS9Ep9lZJ+bWugutRr3uFr7ECuzGCH6ogCEcn2XxE5V/Mb7HscLLsbOFt9FbjoN4F19juIrfh8tr/T7GpijWhfvrPYhvsaHy78UBvFV4SEQMFwfHI2JNRGwrPBIRqyNie7RtxTQcX9OI3Vn7hwrvqPwjhY/OltPzsY5zrLXwEi7FIfyGN9BXn2gvXse1kpaj0xQaxgtYiF9q/3pchgHswYtVb7AT0XhMgYexAK9iE17DSrzSwBfjyHnmi5lwfjgi1kbErsKD5d89PrflH5zA+ZEG52tnwnlMgyf6JvPHOdY6ImKd9qh9gNuwVPK7EWsLH8aHuENyeAibcReWyB75GHfLud6HT3EvLpH8fy5HtxdDLazTFpnv8CDWYFfhh7AaP2EbHsYq/Fj4EdyErdiOR3GD1IodeFw28BbZdE9oiEw/eqSQLKhEy7Co8M2Fe+pZVXhe+W/BVZhT/ltlN58pf79sxFPl70c3eltShVbiV4zWiRbWyUfrdN11inH5nVNxo4U76+QjUkZvrH1jlb+v8GjhFfi5IyIe0+Z8Y33icc43FQVXSq3fjNu1Of8Id2pz/onsgUXYj89wj+R8H76QPZAjOc2o9U8YtTVTjNru8k8ctf8srx3T4Mnip9rzL3ld72x5fRPX1WfaL8frgJyG3/Gy5HCPHJ8NuFrK6aC8+ZbJzh+UcroUO2vPuJwPtvAXTtY7Gvgi/IHnGj+2SzZfM/5U4S55JT/ViO+tPJPlPzUV5xER18fZV+aSyL9Xk3F+OiKumBC/spFrxvL6f9tZ8trCM9qjNoDn5WidkJw37ZhUqG4ptwN4Vo7WmLzRmnYAT0pB2lfxT6tRG5fX5bKhtuIBqe9H5FwfayT7E+9MKPDeFCddUMUX4SvZlOP1BlpSRHqkRPZIueyrzfMmZpuhzZUXE/nJFxbuxuJOKXnqfUZ2ONmRZ2ZZ/G/tf8BjON2s9w/gPBRM94KueQAAAABJRU5ErkJggg==" />
+								</defs>
+							</svg>
+      				    </span> MirandaMedia Group, s.r.o.</p>
+      			</div>
+			</div>			
+		</footer>
+   	<script src="./assets/src/index.js"></script>
+	</body>
 </html>

@@ -4,16 +4,22 @@
 		"title": "Zlatá investiční mince American Eagle 1/2 Oz ND",
 		"availability": "Skladem",
 		"price": 43852,
-		"imgSrc": "/assets/img/product1.jpg",
-		"flags": ["Novinka", "Výprodej"]
+		"imgSrc": "/assets/img/produkt1.jpg",
+		"flags": [
+			"Novinka",
+			"Výprodej"
+		]
 	},
 	{
 		"category": "Novinky",
 		"title": "500g investiční stříbrný slitek Heraeus",
 		"availability": "Skladem",
 		"price": 28465,
-		"imgSrc": "/assets/img/product2.jpg",
-		"flags": ["Tip", "Výprodej"]
+		"imgSrc": "/assets/img/produkt2.jpg",
+		"flags": [
+			"Tip",
+			"Výprodej"
+		]
 	},
 	{
 		"category": "Novinky",
@@ -21,7 +27,67 @@
 		"availability": "Na objednávku",
 		"price": 102940,
 		"imgSrc": "/assets/img/product3.jpg",
-		"flags": ["Novinka"]
+		"flags": [
+			"Novinka"
+		]
+	},
+	{
+		"category": "Novinky",
+		"title": "10 x 1g investiční zlatý slitek Argor Heraeus SA",
+		"availability": "Momentálně nedostupné",
+		"price": 65875,
+		"imgSrc": "/assets/img/produkt4.jpg",
+		"flags": []
+	},
+	{
+		"category": "Novinky",
+		"title": "Stříbrná investiční mince Rok Tygra Lunar III 1 Oz 2022",
+		"availability": "Na objednávku",
+		"price": 102940,
+		"imgSrc": "/assets/img/product3.jpg",
+		"flags": [
+			"Novinka"
+		]
+	},
+	{
+		"category": "Novinky",
+		"title": "Zlatá investiční mince American Eagle 1/2 Oz ND",
+		"availability": "Skladem",
+		"price": 43852,
+		"imgSrc": "/assets/img/produkt1.jpg",
+		"flags": [
+			"Novinka",
+			"Výprodej"
+		]
+	},
+	{
+		"category": "Novinky",
+		"title": "10 x 1g investiční zlatý slitek Argor Heraeus SA",
+		"availability": "Momentálně nedostupné",
+		"price": 65875,
+		"imgSrc": "/assets/img/produkt4.jpg",
+		"flags": []
+	},
+	{
+		"category": "Novinky",
+		"title": "500g investiční stříbrný slitek Heraeus",
+		"availability": "Skladem",
+		"price": 28465,
+		"imgSrc": "/assets/img/produkt2.jpg",
+		"flags": [
+			"Tip",
+			"Výprodej"
+		]
+	},
+	{
+		"category": "Novinky",
+		"title": "Stříbrná investiční mince Rok Tygra Lunar III 1 Oz 2022",
+		"availability": "Na objednávku",
+		"price": 102940,
+		"imgSrc": "/assets/img/product3.jpg",
+		"flags": [
+			"Novinka"
+		]
 	},
 	{
 		"category": "Novinky",
@@ -37,7 +103,9 @@
 		"availability": "Na objednávku",
 		"price": 102940,
 		"imgSrc": "/assets/img/product3.jpg",
-		"flags": ["Novinka"]
+		"flags": [
+			"Novinka"
+		]
 	},
 	{
 		"category": "Novinky",
@@ -45,7 +113,10 @@
 		"availability": "Skladem",
 		"price": 43852,
 		"imgSrc": "/assets/img/product1.jpg",
-		"flags": ["Novinka", "Výprodej"]
+		"flags": [
+			"Novinka",
+			"Výprodej"
+		]
 	},
 	{
 		"category": "Novinky",
@@ -61,31 +132,10 @@
 		"availability": "Skladem",
 		"price": 28465,
 		"imgSrc": "/assets/img/product2.jpg",
-		"flags": ["Tip", "Výprodej"]
-	},
-	{
-		"category": "Novinky",
-		"title": "Stříbrná investiční mince Rok Tygra Lunar III 1 Oz 2022",
-		"availability": "Na objednávku",
-		"price": 102940,
-		"imgSrc": "/assets/img/product3.jpg",
-		"flags": ["Novinka"]
-	},
-	{
-		"category": "Novinky",
-		"title": "10 x 1g investiční zlatý slitek Argor Heraeus SA",
-		"availability": "Momentálně nedostupné",
-		"price": 65875,
-		"imgSrc": "/assets/img/product4.jpg",
-		"flags": []
-	},
-	{
-		"category": "Novinky",
-		"title": "Stříbrná investiční mince Rok Tygra Lunar III 1 Oz 2022",
-		"availability": "Na objednávku",
-		"price": 102940,
-		"imgSrc": "/assets/img/product3.jpg",
-		"flags": ["Novinka"]
+		"flags": [
+			"Tip",
+			"Výprodej"
+		]
 	},
 	{
 		"category": "Novinky",
@@ -93,15 +143,10 @@
 		"availability": "Skladem",
 		"price": 43852,
 		"imgSrc": "/assets/img/product1.jpg",
-		"flags": ["Novinka", "Výprodej"]
-	},
-	{
-		"category": "Novinky",
-		"title": "10 x 1g investiční zlatý slitek Argor Heraeus SA",
-		"availability": "Momentálně nedostupné",
-		"price": 65875,
-		"imgSrc": "/assets/img/product4.jpg",
-		"flags": []
+		"flags": [
+			"Novinka",
+			"Výprodej"
+		]
 	},
 	{
 		"category": "Novinky",
@@ -109,23 +154,10 @@
 		"availability": "Skladem",
 		"price": 28465,
 		"imgSrc": "/assets/img/product2.jpg",
-		"flags": ["Tip", "Výprodej"]
-	},
-	{
-		"category": "Novinky",
-		"title": "Zlatá investiční mince American Eagle 1/2 Oz ND",
-		"availability": "Skladem",
-		"price": 43852,
-		"imgSrc": "/assets/img/product1.jpg",
-		"flags": ["Novinka", "Výprodej"]
-	},
-	{
-		"category": "Novinky",
-		"title": "500g investiční stříbrný slitek Heraeus",
-		"availability": "Skladem",
-		"price": 28465,
-		"imgSrc": "/assets/img/product2.jpg",
-		"flags": ["Tip", "Výprodej"]
+		"flags": [
+			"Tip",
+			"Výprodej"
+		]
 	},
 	{
 		"category": "Nejprodávanější",
@@ -133,7 +165,10 @@
 		"availability": "Skladem",
 		"price": 43852,
 		"imgSrc": "/assets/img/product1.jpg",
-		"flags": ["Novinka", "Výprodej"]
+		"flags": [
+			"Novinka",
+			"Výprodej"
+		]
 	},
 	{
 		"category": "Nejprodávanější",
@@ -149,7 +184,10 @@
 		"availability": "Skladem",
 		"price": 28465,
 		"imgSrc": "/assets/img/product2.jpg",
-		"flags": ["Tip", "Výprodej"]
+		"flags": [
+			"Tip",
+			"Výprodej"
+		]
 	},
 	{
 		"category": "Nejprodávanější",
@@ -157,7 +195,9 @@
 		"availability": "Na objednávku",
 		"price": 102940,
 		"imgSrc": "/assets/img/product3.jpg",
-		"flags": ["Novinka"]
+		"flags": [
+			"Novinka"
+		]
 	},
 	{
 		"category": "Nejprodávanější",
@@ -173,7 +213,10 @@
 		"availability": "Skladem",
 		"price": 43852,
 		"imgSrc": "/assets/img/product1.jpg",
-		"flags": ["Novinka", "Výprodej"]
+		"flags": [
+			"Novinka",
+			"Výprodej"
+		]
 	},
 	{
 		"category": "Nejprodávanější",
@@ -181,7 +224,10 @@
 		"availability": "Skladem",
 		"price": 28465,
 		"imgSrc": "/assets/img/product2.jpg",
-		"flags": ["Tip", "Výprodej"]
+		"flags": [
+			"Tip",
+			"Výprodej"
+		]
 	},
 	{
 		"category": "Nejprodávanější",
@@ -197,7 +243,9 @@
 		"availability": "Na objednávku",
 		"price": 102940,
 		"imgSrc": "/assets/img/product3.jpg",
-		"flags": ["Novinka"]
+		"flags": [
+			"Novinka"
+		]
 	},
 	{
 		"category": "Nejprodávanější",
@@ -205,7 +253,10 @@
 		"availability": "Skladem",
 		"price": 43852,
 		"imgSrc": "/assets/img/product1.jpg",
-		"flags": ["Novinka", "Výprodej"]
+		"flags": [
+			"Novinka",
+			"Výprodej"
+		]
 	},
 	{
 		"category": "Nejprodávanější",
@@ -213,7 +264,9 @@
 		"availability": "Na objednávku",
 		"price": 102940,
 		"imgSrc": "/assets/img/product3.jpg",
-		"flags": ["Novinka"]
+		"flags": [
+			"Novinka"
+		]
 	},
 	{
 		"category": "Nejprodávanější",
@@ -221,7 +274,9 @@
 		"availability": "Na objednávku",
 		"price": 102940,
 		"imgSrc": "/assets/img/product3.jpg",
-		"flags": ["Novinka"]
+		"flags": [
+			"Novinka"
+		]
 	},
 	{
 		"category": "Nejprodávanější",
@@ -229,15 +284,21 @@
 		"availability": "Skladem",
 		"price": 43852,
 		"imgSrc": "/assets/img/product1.jpg",
-		"flags": ["Novinka", "Výprodej"]
+		"flags": [
+			"Novinka",
+			"Výprodej"
+		]
 	},
 	{
-		"category": "Nejprodávanější,
+		"category": "Nejprodávanější",
 		"title": "500g investiční stříbrný slitek Heraeus",
 		"availability": "Skladem",
 		"price": 28465,
 		"imgSrc": "/assets/img/product2.jpg",
-		"flags": ["Tip", "Výprodej"]
+		"flags": [
+			"Tip",
+			"Výprodej"
+		]
 	},
 	{
 		"category": "Nejprodávanější",
@@ -253,16 +314,21 @@
 		"availability": "Skladem",
 		"price": 28465,
 		"imgSrc": "/assets/img/product2.jpg",
-		"flags": ["Tip", Výprodej"]
+		"flags": [
+			"Tip",
+			"Výprodej"
+		]
 	},
-
 	{
 		"category": "Doporučené",
 		"title": "Zlatá investiční mince American Eagle 1/2 Oz ND",
 		"availability": "Skladem",
 		"price": 43852,
 		"imgSrc": "/assets/img/product1.jpg",
-		"flags": ["Novinka", "Výprodej"]
+		"flags": [
+			"Novinka",
+			"Výprodej"
+		]
 	},
 	{
 		"category": "Doporučené",
@@ -278,7 +344,10 @@
 		"availability": "Skladem",
 		"price": 28465,
 		"imgSrc": "/assets/img/product2.jpg",
-		"flags": ["Tip", "Výprodej"]
+		"flags": [
+			"Tip",
+			"Výprodej"
+		]
 	},
 	{
 		"category": "Doporučené",
@@ -286,8 +355,10 @@
 		"availability": "Na objednávku",
 		"price": 102940,
 		"imgSrc": "/assets/img/product3.jpg",
-		"flags": ["Novinka"]
-	}
+		"flags": [
+			"Novinka"
+		]
+	},
 	{
 		"category": "Doporučené",
 		"title": "10 x 1g investiční zlatý slitek Argor Heraeus SA",
@@ -302,7 +373,10 @@
 		"availability": "Skladem",
 		"price": 43852,
 		"imgSrc": "/assets/img/product1.jpg",
-		"flags": ["Novinka", "Výprodej"]
+		"flags": [
+			"Novinka",
+			"Výprodej"
+		]
 	},
 	{
 		"category": "Doporučené",
@@ -310,7 +384,10 @@
 		"availability": "Skladem",
 		"price": 28465,
 		"imgSrc": "/assets/img/product2.jpg",
-		"flags": ["Tip", "Výprodej"]
+		"flags": [
+			"Tip",
+			"Výprodej"
+		]
 	},
 	{
 		"category": "Doporučené",
@@ -326,7 +403,9 @@
 		"availability": "Na objednávku",
 		"price": 102940,
 		"imgSrc": "/assets/img/product3.jpg",
-		"flags": ["Novinka"]
+		"flags": [
+			"Novinka"
+		]
 	},
 	{
 		"category": "Doporučené",
@@ -334,7 +413,10 @@
 		"availability": "Skladem",
 		"price": 43852,
 		"imgSrc": "/assets/img/product1.jpg",
-		"flags": ["Novinka", "Výprodej"]
+		"flags": [
+			"Novinka",
+			"Výprodej"
+		]
 	},
 	{
 		"category": "Doporučené",
@@ -342,7 +424,9 @@
 		"availability": "Na objednávku",
 		"price": 102940,
 		"imgSrc": "/assets/img/product3.jpg",
-		"flags": ["Novinka"]
+		"flags": [
+			"Novinka"
+		]
 	},
 	{
 		"category": "Doporučené",
@@ -350,7 +434,9 @@
 		"availability": "Na objednávku",
 		"price": 102940,
 		"imgSrc": "/assets/img/product3.jpg",
-		"flags": ["Novinka"]
+		"flags": [
+			"Novinka"
+		]
 	},
 	{
 		"category": "Doporučené",
@@ -358,16 +444,22 @@
 		"availability": "Skladem",
 		"price": 43852,
 		"imgSrc": "/assets/img/product1.jpg",
-		"flags": ["Novinka", "Výprodej"]
+		"flags": [
+			"Novinka",
+			"Výprodej"
+		]
 	},
 	{
-		"category": Doporučené,
+		"category": "Doporučené",
 		"title": "500g investiční stříbrný slitek Heraeus",
 		"availability": "Skladem",
 		"price": 28465,
 		"imgSrc": "/assets/img/product2.jpg",
-		"flags": ["Tip", "Výprodej"]
-	}
+		"flags": [
+			"Tip",
+			"Výprodej"
+		]
+	},
 	{
 		"category": "Doporučené",
 		"title": "10 x 1g investiční zlatý slitek Argor Heraeus SA",
@@ -382,6 +474,9 @@
 		"availability": "Skladem",
 		"price": 28465,
 		"imgSrc": "/assets/img/product2.jpg",
-		"flags": ["Tip", "Výprodej"]
+		"flags": [
+			"Tip",
+			"Výprodej"
+		]
 	}
 ]
