@@ -1,0 +1,70 @@
+.shop {
+    padding-top: 26px;
+    padding-bottom: 27px;
+
+    @media screen and (min-width: 1440px) {
+        padding-top: 46px;
+        padding-bottom: 53px;
+    }
+}
+
+.shop-list {
+    @media screen and (min-width: 1440px) {
+        display: flex;
+    }    
+}
+
+.shop-card {
+    padding-top: 46px;
+    padding-bottom: 34px;
+
+    @media screen and (min-width: 1440px) {
+        padding-top: 179px;
+        padding-bottom: 56px;
+    }
+
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.shop-card:not(:last-child) {
+    margin-bottom: 20px;
+    
+    @media screen and (min-width: 1440px) {
+        margin-right: 16px;
+    }    
+}
+
+.first-card {
+    background-image: url(/assets/img/Rectangle\ 42.jpg);
+}
+
+.second-card {
+    background-image: url(/assets/img/Rectangle\ 31.jpg);
+}
+
+.third-card {
+    background-image: url(/assets/img/Rectangle\ 32.jpg);
+}
+
+.shop-title {
+    font-weight: 700;
+    margin-bottom: 10px;
+
+    @media screen and (min-width: 1440px) {
+        margin-bottom: 85px;
+    }    
+}
+
+.button.buy {
+    line-height: 1.21;
+}
+
+.button.buy:hover {
+    background-color: #ebdec3;
+}

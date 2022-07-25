@@ -1,0 +1,73 @@
+.profile-nav {
+    display: flex;
+    align-items: center;
+
+    @media screen and (min-width: 1440px) {
+        // height: 24px;
+    }
+}
+
+.currency {
+    display: none;
+
+    @media screen and (min-width: 1440px) {
+        display: flex;
+        margin-right: 8px;
+    }    
+}
+
+.currency:hover {
+    color: $accent-color;
+}
+
+.shopping-text {
+    margin-right: 6px;
+    color: $primary-text-color;
+
+    @media screen and (min-width: 1440px) {
+        margin-left: 34px;
+        margin-right: 10px;        
+    }
+}
+
+.shopping-text:hover {
+    color: $accent-color;
+}
+
+.shopping-icon {
+    display: none;
+    
+    @media screen and (min-width: 1440px) {
+        display: block;
+    }
+}
+
+.shopping-mobile {
+    display: block;
+    margin-right: 33px;
+
+    @media screen and (min-width: 1440px) {
+        display: none;
+    }
+}
+
+.profile-link {
+    display: none;
+    
+    @media screen and (min-width: 1440px) {
+        display: block;
+        margin-left: 36px;
+    }    
+}
+
+.lines-mobile {
+    display: block;
+
+    @media screen and (min-width: 1440px) {
+        display: none;
+    }   
+}
+
+.profile-icon:hover {
+    fill: $accent-color;
+}

@@ -1,0 +1,52 @@
+.delivery-container {
+    padding: 148px 0px;
+}
+
+.delivery-list {
+    display: flex;
+    align-items: center;
+    height: 119px;
+    outline: 1px solid red;
+}
+
+.item-list {
+    display: flex;
+    /* align-items: center;  */
+}
+
+.item-delivery {
+    /* outline: 1px solid blue; */
+}
+
+/* .item-list::after{
+    content: "";
+    width: 119px;
+    height: 0px;
+    transform: rotate(90deg);
+    border: 1px solid #C4C4C4;
+} */
+
+.delivery {
+    width: 251px;
+    height: 60px;
+    margin-right: 64px;
+}
+
+.delivery-text {
+    margin-left: 21px;
+    font-weight: 500;
+    font-size: 1.29rem;
+    line-height: 1.22;
+}
+
+.fix-price {
+    width: 275px;
+    padding-right: 64px;
+    padding-left: 64px;
+}
+
+.payment {
+    width: 240px;
+    padding-right: 64px;
+    padding-left: 64px;
+}

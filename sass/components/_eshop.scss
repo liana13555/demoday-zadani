@@ -1,0 +1,122 @@
+.e-shop {
+    margin-top: 246px;
+    padding-bottom: 90px;
+
+    font-size: 1.29rem;
+    line-height: 1.22;
+}
+
+.eshop-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-list {
+    display: flex;
+    margin-bottom: 61px;
+}
+
+.eshop-btn {
+    font-size: 1.14rem;
+    line-height: 1.25;
+    color: #979797;
+
+    background-color: $white-bg-color;
+    border: transparent;
+}
+
+.eshop-btn:hover {
+    color: $accent-color;
+}
+
+.current {
+    margin-top: -18px;
+    font-size: 1.71rem;
+    line-height: 1.2;
+    color: $primary-text-color;
+}
+
+.btn-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.btn-products {
+    width: 243px;
+    height: 58px;
+    padding: 20px 40px;
+    background-color: $white-bg-color;
+    border: 1px solid $primary-text-color;
+}
+
+.btn-products:hover {
+    background-color: $accent-color;
+    border: transparent;
+    border-radius: 5px;
+}
+
+.js-eshop-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: calc(-1 * 20px);
+    margin-top: calc(-1 * 20px);
+    margin-bottom: 93px;
+}
+
+.card-thumb {
+    position: relative;
+}
+
+.card-photo {
+    height: 423px;
+}
+
+.card-info {
+    width: 259px;
+    margin-bottom: 15px;
+
+    color: $primary-text-color;
+}
+
+.card-text {
+    margin-bottom: 15px;
+    line-height: 1.21;
+    color: #63DA46;
+}
+
+.flag-first {
+    width: 122px;
+    height: 31px;
+    margin-bottom: 18px;
+    padding: 5px 23px 4px 17px;
+
+    text-align: center;
+    color: $title-text-color;
+    background: #63DA46;
+}
+
+.flag-second {
+    width: 122px;
+    height: 31px;
+    padding: 5px 23px 4px 17px;
+
+    text-align: center;
+    color: $title-text-color;
+    background: #F24D4D;
+}
+
+.flags-thumb {
+    position: absolute;
+    top: 48px;
+    right: 0px;
+}
+
+.product-item {
+    flex-basis: calc(100% / 4 - 20px);
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.product-item:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}

@@ -1,0 +1,14 @@
+.logo {
+    color: $primary-text-color; 
+}
+
+.logo-thumb {
+    margin-right: 37px;
+    padding: 12px 34px 10px;    
+    background-color: $grey-bg-color;
+
+    @media screen and (min-width: 1440px) {
+        margin-right: 169px;
+        padding: 26px 101px 23px 79px;
+    }
+}

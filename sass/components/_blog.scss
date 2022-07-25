@@ -1,0 +1,97 @@
+.blog {
+    padding-top: 76px;
+    padding-bottom: 123px;
+    background-color: $dark-color;
+    text-align: center;
+}
+
+.blog-container {
+    position: relative;
+}
+
+.blog-title {
+    font-weight: 500;
+    margin-bottom: 62px;
+}
+
+.blog-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blog-card {
+    width: 480px;
+    height: 336px;
+}
+
+.blog-info {
+    width: 258px;
+    height: 98px;
+    margin-top: 208px;
+    margin-left: 36px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.blog-date {
+    margin-bottom: 6px;
+
+    line-height: 1.21;
+    color: $title-text-color;
+}
+
+.blog-name {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.blog-author {
+    display: flex;
+    justify-content: baseline;
+    color: $title-text-color;
+}
+
+.author-info {
+    margin-top: 4px;
+}
+
+.blog-icon {
+    margin-right: 6px;
+}
+
+.first-blog {
+    background: linear-gradient(63.9deg, #2E2E2E 0%, rgba(0, 0, 0, 0) 100%),
+        url(/assets/img/blog/Group\ 38\ \(1\).jpg);
+}
+
+.second-blog {
+    background: linear-gradient(0deg, rgba(236, 178, 53, 0.61), rgba(236, 178, 53, 0.61)),
+        linear-gradient(63.9deg, #2E2E2E 0%, rgba(0, 0, 0, 0) 100%),
+        url(/assets/img/blog/Group\ 34-1.jpg);
+    background-blend-mode: normal, normal, luminosity;
+}
+
+.third-blog {
+    background: linear-gradient(63.9deg, #2E2E2E 0%, rgba(0, 0, 0, 0) 100%),
+        url(/assets/img/blog/Group\ 47.jpg);
+}
+
+.fourth-blog {
+    height: 333px;
+    background: linear-gradient(63.9deg, #2E2E2E 0%, rgba(0, 0, 0, 0) 100%),
+        url(/assets/img/blog/Group\ 36\ \(1\).jpg);
+}
+
+.fifth-blog {
+    width: 960px;
+    height: 333px;
+    background: linear-gradient(63.9deg, #2E2E2E 0%, rgba(0, 0, 0, 0) 100%),
+        url(/assets/img/blog/Rectangle\ 4\ \(1\).jpg);
+}
+
+.blog-btn {
+    position: absolute;
+    top: 700px;
+    right: 0px;
+    border: transparent;
+}

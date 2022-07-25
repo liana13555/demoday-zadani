@@ -1,0 +1,21 @@
+.title {
+    font-size: 1.71rem;
+    line-height: 1.21;
+    color: $title-text-color;
+
+    @media screen and (min-width: 1440px) {
+        font-size: 2.57rem;
+        line-height: 1.22;
+    }
+}
+
+.button {
+    display: inline-block;
+    padding: 13px 60px 17px;
+    background-color: $white-bg-color;
+    color: $primary-text-color;
+
+    @media screen and (min-width: 1440px) {
+        padding: 20px 92px;
+    }
+}
