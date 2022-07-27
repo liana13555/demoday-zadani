@@ -1,8 +1,15 @@
 .blog {
-    padding-top: 76px;
-    padding-bottom: 123px;
+    padding-top: 43px;
+    padding-bottom: 98px;
     background-color: $dark-color;
     text-align: center;
+
+    @media screen and (min-width: 1440px) {
+        padding-top: 76px;
+        padding-bottom: 123px;
+        background-color: $dark-color;
+        text-align: center;
+    }
 }
 
 .blog-container {
@@ -11,7 +18,11 @@
 
 .blog-title {
     font-weight: 500;
-    margin-bottom: 62px;
+    margin-bottom: 35px;
+
+    @media screen and (min-width: 1440px) {
+        margin-bottom: 62px;
+    }
 }
 
 .blog-list {
@@ -19,36 +30,64 @@
     flex-wrap: wrap;
 }
 
-.blog-card {
-    width: 480px;
-    height: 336px;
+.blog-card {    
+    flex-basis: calc(100% / 1);
+
+    @media screen and (min-width: 1440px) {
+        flex-basis: calc(100% / 3);
+        height: 336px;    
+    }
 }
 
 .blog-info {
     width: 258px;
-    height: 98px;
-    margin-top: 208px;
-    margin-left: 36px;
-    margin-bottom: 30px;
+    height: 74px;
     text-align: left;
+    margin-top: 128px;
+    margin-bottom: 30px;
+    margin-left: 12px;
+
+    @media screen and (min-width: 1440px) {
+       height: 98px; 
+       margin-top: 208px;
+       margin-bottom: 30px;
+       margin-left: 36px;
+    }    
 }
 
 .blog-date {
-    margin-bottom: 6px;
-
-    line-height: 1.21;
+    margin-bottom: 2px;
+    font-size: 0.86rem;
+    line-height: 1.25;
     color: $title-text-color;
+
+    @media screen and (min-width: 1440px) {
+        margin-bottom: 6px;
+        font-size: 1rem;        
+        line-height: 1.21;
+    }
 }
 
 .blog-name {
-    margin-bottom: 10px;
     font-weight: 500;
+    
+    @media screen and (min-width: 1440px) {
+        margin-bottom: 10px;
+    }    
 }
 
 .blog-author {
     display: flex;
     justify-content: baseline;
+    margin-top: 9px;
+    font-size: 0.86rem;
+    line-height: 1.25;
     color: $title-text-color;
+
+    @media screen and (min-width: 1440px) {
+        font-size: 1rem;
+        line-height: 1.21;
+    }
 }
 
 .author-info {
@@ -65,33 +104,68 @@
 }
 
 .second-blog {
-    background: linear-gradient(0deg, rgba(236, 178, 53, 0.61), rgba(236, 178, 53, 0.61)),
-        linear-gradient(63.9deg, #2E2E2E 0%, rgba(0, 0, 0, 0) 100%),
-        url(/assets/img/blog/Group\ 34-1.jpg);
-    background-blend-mode: normal, normal, luminosity;
+    display: none;
+
+    @media screen and (min-width: 1440px) {
+        display: block;
+        background: linear-gradient(0deg, rgba(236, 178, 53, 0.61), rgba(236, 178, 53, 0.61)),
+            linear-gradient(63.9deg, #2E2E2E 0%, rgba(0, 0, 0, 0) 100%),
+            url(/assets/img/blog/Group\ 34-1.jpg);
+        background-blend-mode: normal, normal, luminosity;
+    }
 }
 
 .third-blog {
-    background: linear-gradient(63.9deg, #2E2E2E 0%, rgba(0, 0, 0, 0) 100%),
-        url(/assets/img/blog/Group\ 47.jpg);
+    display: none;
+
+    @media screen and (min-width: 1440px) {
+        display: block;
+        background: linear-gradient(63.9deg, #2E2E2E 0%, rgba(0, 0, 0, 0) 100%),
+        url(/assets/img/blog/Group\ 47.jpg);   
+    }
 }
 
 .fourth-blog {
-    height: 333px;
     background: linear-gradient(63.9deg, #2E2E2E 0%, rgba(0, 0, 0, 0) 100%),
         url(/assets/img/blog/Group\ 36\ \(1\).jpg);
+    background-size: contain;
+    
+    @media screen and (min-width: 1440px){
+        height: 333px;
+    }
 }
 
 .fifth-blog {
-    width: 960px;
-    height: 333px;
-    background: linear-gradient(63.9deg, #2E2E2E 0%, rgba(0, 0, 0, 0) 100%),
-        url(/assets/img/blog/Rectangle\ 4\ \(1\).jpg);
+    display: none;
+    
+    @media screen and (min-width: 1440px) {
+        display: block;
+        flex-basis: calc(100% - 480px);
+        height: 333px;
+        background: linear-gradient(63.9deg, #2E2E2E 0%, rgba(0, 0, 0, 0) 100%),
+            url(/assets/img/blog/Rectangle\ 4\ \(1\).jpg);
+    }
+}
+
+.sixth-blog {
+    background: linear-gradient(63.9deg, #2E2E2E 0%, rgba(0, 0, 0, 0) 100%),         
+        url(/assets/img/blog/Rectangle\ 4.jpg);    
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @media screen and (min-width: 1440px) {
+        display: none;
+    }
 }
 
 .blog-btn {
     position: absolute;
-    top: 700px;
-    right: 0px;
+    top: 738px;
+    right: 20px;
     border: transparent;
+
+    @media screen and (min-width: 1440px){
+        top: 700px;
+        right: 0px;
+    }
 }

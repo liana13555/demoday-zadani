@@ -1,6 +1,4 @@
 .hero {
-    // max-width: 375px;
-    // height: 100%;
     padding-top: 188px;
     padding-bottom: 151px;
     margin-left: auto;
@@ -17,7 +15,6 @@
 
     @media screen and (min-width: 1440px) {
         max-width: 1920px;
-        height: 254px;
         padding-top: 292px;
         padding-bottom: 367px;
         margin-left: auto;
@@ -26,6 +23,12 @@
         background-image: url(/assets/img/Rectangle\ 1.jpg);
         background-position: center;
     }
+}
+
+.hero .container {
+    @media screen and (min-width: 1440px) {
+        max-width: 623px;
+    }    
 }
 
 .hero-pretitle {

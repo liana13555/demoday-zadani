@@ -1,6 +1,11 @@
 .e-shop {
-    margin-top: 246px;
-    padding-bottom: 90px;
+    margin-top: 171px;
+    padding-bottom: 54px;
+
+    @media screen and (min-width: 1440px) {
+        margin-top: 246px;
+        padding-bottom: 90px;
+    }
 
     font-size: 1.29rem;
     line-height: 1.22;
@@ -13,8 +18,10 @@
 }
 
 .btn-list {
-    display: flex;
-    margin-bottom: 61px;
+    @media screen and (min-width: 1440px) {
+        display: flex;
+        margin-bottom: 61px;
+    }
 }
 
 .eshop-btn {

@@ -1,6 +1,9 @@
 .offer {
+    position: relative;
     height: 304px;
     padding-top: 32px;
+    margin-right: auto;
+    margin-left: auto;
     text-align: center;
     background-color: $dark-color;
 
@@ -14,29 +17,24 @@
     position: relative;
 }
 
-.offer-title {
-    font-weight: 500;
-    margin-bottom: 32px;
+.offer-list {
+    position: absolute;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
 
-    @media screen and (min-width: 1440px){
-        margin-bottom: 60px;
+    @media screen and (min-width: 1440px) {
+        top: 104px;
+        left: 0px;
     }    
 }
 
-.offer-list {
-    display: flex;
-    position: absolute;
-    top: 104px;
-    left: 0px;
-}
-
 .offer-card {
-    padding: 171px 20px 56px 7px;
+    padding: 171px 18px 71px 7px;
 
     @media screen and (min-width: 1440px) {
         padding: 435px 120px 111px 23px;
-    }
-    
+    }    
 
     background-repeat: no-repeat;
     background-size: cover;
@@ -50,14 +48,21 @@
     background-image: url(/assets/img/offer/Rectangle\ 21\ \(1\).jpg);
 }
 
-.offer-card:nth-child(2) {
+.offer-card:nth-child(2) {  
+    padding-left: 12px;
+    padding-right: 25px;
     background-image: url(/assets/img/offer/Rectangle\ 22\ \(1\).jpg);
+
+    @media screen and (min-width: 1440px) {
+        padding: 435px 120px 111px 23px;
+    }
 }
 
 .offer-card:nth-child(3) {
     display: none;
-    
+
     @media screen and (min-width: 1440px) {
+        display: block;
         background-image: url(/assets/img/offer/Rectangle\ 28\ \(1\).jpg);
     }    
 }
@@ -66,11 +71,14 @@
     display: none;
 
     @media screen and (min-width: 1440px) {
+        width: 311px;
+        display: block;
         background-image: url(/assets/img/offer/Rectangle\ 24\ \(1\).jpg);
     }    
 }
 
 .offer-block {
+    position: relative;
     text-align: left;
 
     @media screen and (min-width: 1440px) {
@@ -78,33 +86,64 @@
     }    
 }
 
-.offer-last {
-    width: 311px;
+.offer-pretitle {
+    font-size: 0.86rem;
+    line-height: 1.25;
+    
+    color: $title-text-color;
+
+    @media screen and (min-width: 1440px) {
+        margin-bottom: 7px;
+        line-height: 1.21;
+    }
 }
 
-.offer-pretitle {
-    margin-bottom: 7px;
-    line-height: 1.21;
-    color: $title-text-color;
+.offer-title {
+    font-weight: 500;
+    margin-bottom: 32px;
+
+    @media screen and (min-width: 1440px) {
+        margin-bottom: 60px;
+    }
 }
 
 .btn-more {
-    width: 243px;
-    padding: 53px 60px 50px 41px;
-    line-height: 1.21;
+    padding: 27px 18px 25px 16px;
+    font-size: 0.86rem;
+    line-height: 1.25;
     text-align: center;
     color: $dark-color;
     background-color: $accent-color;
+
+    @media screen and (min-width: 1440px) {
+        // width: 243px;
+        padding: 53px 60px 50px 41px;
+        line-height: 1.21;
+    }
 }
 
 .offer-btn {
     position: absolute;
-    top: 650px;
-    right: -2px;
+    top: 330px;
+    right: 20px;
     border: transparent;
+
+    @media screen and (min-width: 1440px) {
+        top: 650px;
+        right: -2px;
+    }
 }
 
 .btn-icon {
-    margin-left: 23px;
-    margin-bottom: -4px;
+    width: 21px;
+    height: 9px;
+    margin-left: 13px;
+    margin-bottom: -2px;
+
+    @media screen and (min-width: 1440px) {
+        width: 31px;
+        height: 16px;
+        margin-left: 23px;
+        margin-bottom: -4px;  
+    }
 }

@@ -142,7 +142,7 @@
 						</div>    					
     				</li>
     				<li class="offer-card">
-						<div class="offer-block offer-last">
+						<div class="offer-block">
 							<p class="offer-pretitle">Pamětní</p>
     					    <p class="title">Zlaté mince ČNB</p>
 
@@ -289,6 +289,28 @@
 							</div>
 						</a>
 					</li>
+					<li class="blog-card sixth-blog">
+						<a href="">
+							<div class="blog-info">
+								<p class="blog-date">20.12.2021</p>
+								<h2 class="blog-name title">Lorem Ipsum</h2>
+								<div class="blog-author">
+									<svg class="blog-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M12 2C6.477 2 2 6.477 2 12C2 17.523 6.477 22 12 22C17.523 22 22 17.523 22 12C22 6.477 17.523 2 12 2Z"
+											stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+										<path d="M4.271 18.346C4.271 18.346 6.5 15.5 12 15.5C17.5 15.5 19.73 18.346 19.73 18.346"
+											stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+										<path
+											d="M12 12C12.7956 12 13.5587 11.6839 14.1213 11.1213C14.6839 10.5587 15 9.79565 15 9C15 8.20435 14.6839 7.44129 14.1213 6.87868C13.5587 6.31607 12.7956 6 12 6C11.2044 6 10.4413 6.31607 9.87868 6.87868C9.31607 7.44129 9 8.20435 9 9C9 9.79565 9.31607 10.5587 9.87868 11.1213C10.4413 11.6839 11.2044 12 12 12V12Z"
+											stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+									<p class="author-info">Lukáš | 0 Coments</p>
+								</div>
+							</div>
+						</a>
+					</li>
 			    </ul>
 				<button type="button" class="btn-more blog-btn">Zobrazit více
 					<svg class="btn-icon" width="31" height="16" viewBox="0 0 31 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -373,14 +395,13 @@
 					</div>
 				</li>
 			</ul>
-			</div>
-			
+			</div>			
 		</section>
 		<!-- Newsletter -->
 		<section class="newsletter">
 			<div class="container">			
 			    <h2 class="title newsletter-title">Zůstaňtě s námi v kontaktu</h2>
-			    <form>
+			    <form class="newsletter-form">
 			    	<input class="newsletter-input" type="text" placeholder="@Zadej svuj email">
 			    	<button type="submit" class="btn-more newsletter-btn">Odeslat
 					    <svg class="btn-icon" width="48" height="14" viewBox="0 0 31 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -395,7 +416,7 @@
 		<!-- Footer -->
 		<footer class="footer" id="footer">
 			<div class="container">
-				<div class="logo-thumb footer-logo">
+				<div class="footer-logo">
 					<a href="" class="logo">LOGO</a>
 				</div>
 			    <div class="footer-thumb">
@@ -491,11 +512,11 @@
       				<p class="rights-text">Copyright 2021 Constant Invest</p>
       				<p>vytvoril Shoptet | 
       					<span>
-							<svg class="miranda-icon" width="31" height="26" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-								<path fill="url(#a)" d="M0 .735h31v25.068H0z" />
+							<svg class="miranda-icon" width="23" height="20" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+								<path fill="url(#a)" d="M0 .057h23v19H0z" />
 								<defs>
 									<pattern id="a" patternContentUnits="objectBoundingBox" width="1" height="1">
-										<use xlink:href="#b" transform="matrix(.03235 0 0 .04 -.001 0)" />
+										<use xlink:href="#b" transform="matrix(.03304 0 0 .04 -.012 0)" />
 									</pattern>
 									<image id="b" width="31" height="25"
 										xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAZCAYAAADJ9/UkAAAACXBIWXMAAC4jAAAuIwF4pT92AAAGgmlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNi4wLWMwMDYgNzkuZGFiYWNiYiwgMjAyMS8wNC8xNC0wMDozOTo0NCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIyLjQgKFdpbmRvd3MpIiB4bXA6Q3JlYXRlRGF0ZT0iMjAyMS0xMS0yNVQxMzozMjo1NCswMTowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAyMS0xMS0yNVQxMzozMjo1NCswMTowMCIgeG1wOk1vZGlmeURhdGU9IjIwMjEtMTEtMjVUMTM6MzI6NTQrMDE6MDAiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NGY1ZDI0NTEtOTY1Yy1kMzQwLThlNDYtOTMxNzJiOGY1YzcyIiB4bXBNTTpEb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6M2Q4MzVhMTItMGMyMy04MDQ5LWFiNDItNzIzYzE5ODVmOGRhIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6YWY0NjEyNWItYzlmYS03NDQzLTk0OWYtOTdlYTgwZTc1MTViIiBwaG90b3Nob3A6Q29sb3JNb2RlPSIzIiBwaG90b3Nob3A6SUNDUHJvZmlsZT0ic1JHQiBJRUM2MTk2Ni0yLjEiIGRjOmZvcm1hdD0iaW1hZ2UvcG5nIj4gPHhtcE1NOkhpc3Rvcnk+IDxyZGY6U2VxPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0iY3JlYXRlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDphZjQ2MTI1Yi1jOWZhLTc0NDMtOTQ5Zi05N2VhODBlNzUxNWIiIHN0RXZ0OndoZW49IjIwMjEtMTEtMjVUMTM6MzI6NTQrMDE6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCAyMi40IChXaW5kb3dzKSIvPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0ic2F2ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6NGY1ZDI0NTEtOTY1Yy1kMzQwLThlNDYtOTMxNzJiOGY1YzcyIiBzdEV2dDp3aGVuPSIyMDIxLTExLTI1VDEzOjMyOjU0KzAxOjAwIiBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZG9iZSBQaG90b3Nob3AgMjIuNCAoV2luZG93cykiIHN0RXZ0OmNoYW5nZWQ9Ii8iLz4gPC9yZGY6U2VxPiA8L3htcE1NOkhpc3Rvcnk+IDxwaG90b3Nob3A6RG9jdW1lbnRBbmNlc3RvcnM+IDxyZGY6QmFnPiA8cmRmOmxpPnhtcC5kaWQ6NjczYjk1OTktMDllNC00ZTkwLTllNmUtZjA5MWI3YWZmM2Y5PC9yZGY6bGk+IDwvcmRmOkJhZz4gPC9waG90b3Nob3A6RG9jdW1lbnRBbmNlc3RvcnM+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+azAdwwAAA2BJREFUSImt1stvllUQBvBf64cRSinWAN4wysVqjIkRTYqg0ahx4cJooomKG93oQv8Dl26UjYqJ0Z3uXLgwMREiGm8J3pEYUCqJIFC5FEpbQRAcFzPN91JLS62TvHnPk5kz8533mXnOJyL2RtrBiOiPiC2FT0ZEX0SYxbM8Io5Xvm8q//7CezoxX9p8XIB5hS9Ep9lZJ+bWugutRr3uFr7ECuzGCH6ogCEcn2XxE5V/Mb7HscLLsbOFt9FbjoN4F19juIrfh8tr/T7GpijWhfvrPYhvsaHy78UBvFV4SEQMFwfHI2JNRGwrPBIRqyNie7RtxTQcX9OI3Vn7hwrvqPwjhY/OltPzsY5zrLXwEi7FIfyGN9BXn2gvXse1kpaj0xQaxgtYiF9q/3pchgHswYtVb7AT0XhMgYexAK9iE17DSrzSwBfjyHnmi5lwfjgi1kbErsKD5d89PrflH5zA+ZEG52tnwnlMgyf6JvPHOdY6ImKd9qh9gNuwVPK7EWsLH8aHuENyeAibcReWyB75GHfLud6HT3EvLpH8fy5HtxdDLazTFpnv8CDWYFfhh7AaP2EbHsYq/Fj4EdyErdiOR3GD1IodeFw28BbZdE9oiEw/eqSQLKhEy7Co8M2Fe+pZVXhe+W/BVZhT/ltlN58pf79sxFPl70c3eltShVbiV4zWiRbWyUfrdN11inH5nVNxo4U76+QjUkZvrH1jlb+v8GjhFfi5IyIe0+Z8Y33icc43FQVXSq3fjNu1Of8Id2pz/onsgUXYj89wj+R8H76QPZAjOc2o9U8YtTVTjNru8k8ctf8srx3T4Mnip9rzL3ld72x5fRPX1WfaL8frgJyG3/Gy5HCPHJ8NuFrK6aC8+ZbJzh+UcroUO2vPuJwPtvAXTtY7Gvgi/IHnGj+2SzZfM/5U4S55JT/ViO+tPJPlPzUV5xER18fZV+aSyL9Xk3F+OiKumBC/spFrxvL6f9tZ8trCM9qjNoDn5WidkJw37ZhUqG4ptwN4Vo7WmLzRmnYAT0pB2lfxT6tRG5fX5bKhtuIBqe9H5FwfayT7E+9MKPDeFCddUMUX4SvZlOP1BlpSRHqkRPZIueyrzfMmZpuhzZUXE/nJFxbuxuJOKXnqfUZ2ONmRZ2ZZ/G/tf8BjON2s9w/gPBRM94KueQAAAABJRU5ErkJggg==" />

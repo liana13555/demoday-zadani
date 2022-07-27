@@ -1,50 +1,115 @@
 .footer {
-    padding-top: 87px;
-    padding-bottom: 70px;
+    padding-top: 53px;
+    padding-bottom: 46px;
     color: $title-text-color;
     background-color: $dark-color;
+
+    @media screen and (min-width: 1440px) {
+        padding-top: 87px;
+        padding-bottom: 70px;    
+    }
+}
+
+.footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media screen and (min-width: 1440px) {
+        display: block;
+    }
 }
 
 .footer-logo {
-    margin-bottom: 90px;
+    display: inline-block;  
+    margin-bottom: 52px;
+    padding: 22px 92px 22px 76px;
+    font-size: 1.29rem;
+    line-height: 1.22;
+    background-color: $grey-bg-color;
+
+    @media screen and (min-width: 1440px) {
+        margin-bottom: 90px;
+    }
 }
 
 .footer-thumb {
     display: flex;
-    margin-bottom: 127px;
-    font-size: 1.29rem;
-    line-height: 1.72;
+    flex-direction: column;
+    margin-bottom: 64px;
+    font-size: 0.86rem;
+    line-height: 1.67;
+    text-align: center;
+
+    @media screen and (min-width: 1440px) {
+        flex-direction: row;
+        margin-bottom: 127px;
+        text-align: left;
+        font-size: 1.29rem;
+        line-height: 1.72;
+    }
 }
 
 .footer-title {
-    margin-bottom: 36px;
+    margin-bottom: 20px;
+
+    @media screen and (min-width: 1440px) {
+        margin-bottom: 36px;
+    }    
 }
 
 .conditions-thumb {
-    margin-right: 39px;
+    margin-bottom: 27px;
+
+    @media screen and (min-width: 1440px) {
+        margin-right: 39px;
+        margin-bottom: 0px;
+    }    
 }
 
 .orders-thumb {
-    margin-right: 83px;
+    margin-bottom: 33px;
+    @media screen and (min-width: 1440px) {
+        margin-right: 83px;
+        margin-bottom: 0px;
+    }
 }
 
 .firm-thumb {
-    margin-right: 275px;
+    margin-bottom: 44px;
+
+    @media screen and (min-width: 1440px) {
+        margin-right: 275px;
+        margin-bottom: 0px;
+    }
 }
 
 .media-items {
     height: 25px;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
+
+    @media screen and (min-width: 1440px) {
+        margin-bottom: 16px;
+    }    
 }
 
 .mobile-item {
     height: 22px;
-    margin-bottom: 13px;
+    margin-bottom: 9px;
+
+    @media screen and (min-width: 1440px) {
+        margin-bottom: 13px;
+    }    
 }
 
 .mobile-icon {
-    margin-right: 16px;
+    margin-right: 13px;
     margin-bottom: -5px;
+
+    @media screen and (min-width: 1440px) {
+        margin-right: 16px;        
+    }
+    
 }
 
 .email-item {
@@ -62,16 +127,43 @@
 
 .rights-thumb {
     display: flex;
-    font-size: 1.29rem;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.86rem;
     line-height: 1.5;
+    // outline: 1px solid blue;
+
+    @media screen and (min-width: 1440px) {     
+        flex-direction: row;   
+        align-items: baseline;
+        font-size: 1.29rem;        
+    }
 }
 
 .rights-text {
-    margin-right: 688px;
+    margin-bottom: 18px;
+    font-size: 0.86rem;
+    line-height: 1.25;
+
+    @media screen and (min-width: 1440px) {
+        margin-right: 688px;
+        font-size: 1.29rem;
+        line-height: 1.22;
+    }    
 }
 
 .miranda-icon {
-    margin-left: 10px;
-    margin-right: 10px;
+    width: 23px;
+    height: 19px;
+    margin-left: 5px;
+    margin-right: 5px;
     margin-bottom: -5px;
+
+    @media screen and (min-width: 1440px) {
+        width: 31px;
+        height: 25px;
+        margin-left: 10px;
+        margin-bottom: -10px;
+    }
 }
+

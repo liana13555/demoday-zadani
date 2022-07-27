@@ -4,7 +4,7 @@ fetch("/assets/src/products.json")
     .then(response => response.json())
   .then(products => {
     function createProductsMarkup(products) {
-      return products.slice(0, 8).map(({ imgSrc, title, availability, price }) => {
+      return products.slice(0, 4).map(({ imgSrc, title, availability, price }) => {
         return `
         	<li class="product-item">
 				    <a href="">
