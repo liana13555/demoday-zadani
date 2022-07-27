@@ -1,52 +1,81 @@
 .delivery-container {
-    padding: 148px 0px;
+    padding: 45px 20px 54px 20px;
+
+    @media screen and (min-width: 1440px) {
+        padding: 148px 0px;
+    }    
 }
 
 .delivery-list {
-    display: flex;
-    align-items: center;
-    height: 119px;
-    outline: 1px solid red;
+    display: flex;  
+    flex-wrap: wrap;
+    
+    margin-left: calc(-1 * 14px);
+    margin-top: calc(-1 * 30px);
+
+    @media screen and (min-width: 1440px) {
+        margin-left: 0px;
+        margin-top: 0px;
+        flex-wrap: nowrap;
+    }
 }
 
 .item-list {
     display: flex;
-    /* align-items: center;  */
+    flex-basis: calc(100% / 2 - 14px);
+    margin-left: 14px;
+    margin-top: 30px;
+
+    @media screen and (min-width: 1440px) {
+        flex-basis: content;
+        margin-left: 0px;
+        margin-top: 0px;
+        padding-top: 29.5px;
+        padding-bottom: 29.5px;  
+        
+        &:not(:last-child) {
+            padding-right: 64px;
+            border-right: 1px solid #C4C4C4;
+        }
+
+        &:not(:first-child) {
+            padding-left: 64px;
+        }
+    }  
 }
 
 .item-delivery {
-    /* outline: 1px solid blue; */
-}
-
-/* .item-list::after{
-    content: "";
-    width: 119px;
-    height: 0px;
-    transform: rotate(90deg);
-    border: 1px solid #C4C4C4;
-} */
-
-.delivery {
-    width: 251px;
-    height: 60px;
-    margin-right: 64px;
+    display: flex;
+    align-items: center;
 }
 
 .delivery-text {
-    margin-left: 21px;
     font-weight: 500;
-    font-size: 1.29rem;
-    line-height: 1.22;
+    font-size: 0.86rem;
+    line-height: 1.25;
+    margin-left: 10px;
+
+    @media screen and (min-width: 1440px) {
+        margin-left: 24px;
+        font-size: 1.29rem;
+        line-height: 1.22;
+    }
 }
 
-.fix-price {
-    width: 275px;
-    padding-right: 64px;
-    padding-left: 64px;
+.item-img {
+    width: 36px;
+
+    @media screen and (min-width: 1440px) {
+        width: 60px;
+    }
 }
 
-.payment {
-    width: 240px;
-    padding-right: 64px;
-    padding-left: 64px;
+.museum-picture {
+    border: 2px solid $accent-color;
+    border-radius: 50%;
+
+    @media screen and (min-width: 1440px){
+        width: 54px;
+        border: 3px solid $accent-color;
+    }
 }
