@@ -624,9 +624,17 @@ p {
   height: 423px;
 }
 
+.card-meta {
+  padding: 0px 11px 16px;
+}
+
 .card-info {
   width: 259px;
   margin-bottom: 15px;
+  color: #000000;
+}
+
+.card-price {
   color: #000000;
 }
 
@@ -655,6 +663,10 @@ p {
   background: #F24D4D;
 }
 
+.hidden {
+  display: none;
+}
+
 .flags-thumb {
   position: absolute;
   top: 48px;
@@ -666,9 +678,11 @@ p {
   margin-left: 20px;
   margin-top: 20px;
 }
-
 .product-item:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.product-item:nth-child(n+5) {
+  display: none;
 }
 
 .blog {
