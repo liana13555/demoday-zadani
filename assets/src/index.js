@@ -10,15 +10,18 @@ fetch("/assets/src/products.json")
         	<li class="product-item">
 				    <a href="">
 				    	<div class="card-thumb">
-				    		<img class="card-photo" src="${imgSrc}" alt="${title}" width="345">
+				    		<img class="card-photo"
+                 src="${imgSrc}" alt="${title}" width="345px">
 				    	  <div class="card-meta">
 				    	   	<p class="card-info">${title}</p>
-				    	   	<p class="card-text">${availability}</p>
+                  ${availability === "Skladem" ? `<p class="card-text green">${availability}</p>` : ''}
+                  ${availability === "Momentálně nedostupné" ? `<p class="card-text red">${availability}</p>` : ''}
+                  ${availability === "Na objednávku" ? `<p class="card-text grey">${availability}</p>` : ''} 
 				    	   	<p class="card-price">${price} CZK</p>
 				    	  </div>
                 <div class="flags-thumb"> 
-                ${flags[0] ? `<div class="flag-first"> ${flags[0]}</div>` : ''}                                               
-                ${flags[1] ? `<div class="flag-second"> ${flags[1]}</div>` : ''}  
+                  ${flags[0] ? `<div class="flag-first"> ${flags[0]}</div>` : ''}                                               
+                  ${flags[1] ? `<div class="flag-second"> ${flags[1]}</div>` : ''}  
                 </div>
               </div>
 				    </a>
@@ -78,7 +81,9 @@ function selectNewProducts() {
 				    		<img class="card-photo" src="${imgSrc}" alt="${title}" width="345">				    	
 				    	  <div class="card-meta">
 				    	   	<p class="card-info">${title}</p>
-				    	   	<p class="card-text">${availability}</p>
+				    	   	${availability === "Skladem" ? `<p class="card-text green">${availability}</p>` : ''}
+                  ${availability === "Momentálně nedostupné" ? `<p class="card-text red">${availability}</p>` : ''}
+                  ${availability === "Na objednávku" ? `<p class="card-text grey">${availability}</p>` : ''}
 				    	   	<p class="card-price">${price} CZK</p>
 				    	  </div>
                 <div class="flags-thumb">
@@ -111,7 +116,9 @@ function selectBestsellProducts() {
 				    		<img class="card-photo" src="${imgSrc}" alt="${title}" width="345">				    	
 				    	  <div class="card-meta">
 				    	   	<p class="card-info">${title}</p>
-				    	   	<p class="card-text">${availability}</p>
+				    	   	${availability === "Skladem" ? `<p class="card-text green">${availability}</p>` : ''}
+                  ${availability === "Momentálně nedostupné" ? `<p class="card-text red">${availability}</p>` : ''}
+                  ${availability === "Na objednávku" ? `<p class="card-text grey">${availability}</p>` : ''}
 				    	   	<p class="card-price">${price} CZK</p>
 				    	  </div>
                 <div class="flags-thumb">
@@ -144,7 +151,9 @@ function selectReccomendProducts() {
 				    		<img class="card-photo" src="${imgSrc}" alt="${title}" width="345">				    	
 				    	  <div class="card-meta">
 				    	   	<p class="card-info">${title}</p>
-				    	   	<p class="card-text">${availability}</p>
+				    	   	${availability === "Skladem" ? `<p class="card-text green">${availability}</p>` : ''}
+                  ${availability === "Momentálně nedostupné" ? `<p class="card-text red">${availability}</p>` : ''}
+                  ${availability === "Na objednávku" ? `<p class="card-text grey">${availability}</p>` : ''}
 				    	   	<p class="card-price">${price} CZK</p>
 				    	  </div>
                 <div class="flags-thumb">
