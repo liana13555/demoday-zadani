@@ -1,10 +1,6 @@
 .profile-nav {
     display: flex;
     align-items: center;
-
-    @media screen and (min-width: 1440px) {
-        // height: 24px;
-    }
 }
 
 .currency {
@@ -13,11 +9,11 @@
     @media screen and (min-width: 1440px) {
         display: flex;
         margin-right: 8px;
-    }    
-}
-
-.currency:hover {
-    color: $accent-color;
+    }   
+    
+    &:hover {
+        color: $accent-color;
+    }
 }
 
 .shopping-text {
@@ -28,10 +24,10 @@
         margin-left: 34px;
         margin-right: 10px;        
     }
-}
 
-.shopping-text:hover {
-    color: $accent-color;
+    &:hover {
+        color: $accent-color;
+    }
 }
 
 .shopping-icon {

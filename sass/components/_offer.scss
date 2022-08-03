@@ -1,6 +1,6 @@
 .offer {
     position: relative;
-    height: 304px;
+    height: 272px;
     padding-top: 32px;
     margin-right: auto;
     margin-left: auto;
@@ -14,14 +14,12 @@
 }
 
 .offer-container {
-    position: relative;
+    position: relative;    
 }
 
 .offer-list {
-    position: absolute;
     display: flex;
-    margin-right: auto;
-    margin-left: auto;
+    justify-content: center;
 
     @media screen and (min-width: 1440px) {
         top: 104px;
@@ -30,31 +28,31 @@
 }
 
 .offer-card {
-    padding: 171px 18px 71px 7px;
-
-    @media screen and (min-width: 1440px) {
-        padding: 435px 120px 111px 23px;
-    }    
-
+    flex-basis: calc(100% / 2);
+    padding-top: 171px;
+    padding-bottom: 69px;
+    padding-left: 7px;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.offer-card:last-child {
-    padding-right: 27px;
-}
-
-.offer-card:first-child {
-    background-image: url(/assets/img/offer/Rectangle\ 21\ \(1\).jpg);
-}
-
-.offer-card:nth-child(2) {  
-    padding-left: 12px;
-    padding-right: 25px;
-    background-image: url(/assets/img/offer/Rectangle\ 22\ \(1\).jpg);
 
     @media screen and (min-width: 1440px) {
-        padding: 435px 120px 111px 23px;
+        width: calc(100% / 4);
+        padding-top: 435px;
+        padding-bottom: 111px;
+        padding-left: 23px;
+    }
+
+    &:first-child {
+        background-image: url(/assets/img/offer/Rectangle\ 21\ \(1\).jpg);
+    }
+
+    &:nth-child(2) {  
+        padding-left: 12px;
+        background-image: url(/assets/img/offer/Rectangle\ 22\ \(1\).jpg);
+
+        @media screen and (min-width: 1440px) {
+            // padding: 435px 120px 111px 23px;
+        }
     }
 }
 
@@ -71,19 +69,15 @@
     display: none;
 
     @media screen and (min-width: 1440px) {
-        width: 311px;
         display: block;
+        padding-right: 27px;
+        
         background-image: url(/assets/img/offer/Rectangle\ 24\ \(1\).jpg);
     }    
 }
 
 .offer-block {
-    position: relative;
-    text-align: left;
-
-    @media screen and (min-width: 1440px) {
-        width: 217px;
-    }    
+    text-align: left; 
 }
 
 .offer-pretitle {
@@ -116,7 +110,6 @@
     background-color: $accent-color;
 
     @media screen and (min-width: 1440px) {
-        // width: 243px;
         padding: 53px 60px 50px 41px;
         line-height: 1.21;
     }
@@ -130,7 +123,7 @@
 
     @media screen and (min-width: 1440px) {
         top: 650px;
-        right: -2px;
+        right: 0px;
     }
 }
 

@@ -3,7 +3,6 @@
     align-items: center;
     padding-top: 23px;
     padding-bottom: 17px;   
-    outline: 1px solid red; 
    
     @media screen and (min-width: 1440px) {
         align-items: baseline;
@@ -27,24 +26,26 @@
     }    
 }
 
-.site-nav .item:not(:last-child) {
-    margin-right: 45px;
-}
+.site-nav .item { 
+    &:not(:last-child) {
+        margin-right: 45px;
+    }
 
-.site-nav .item:last-child {
-    margin-right: 76px;
-}
+    &:last-child {
+        margin-right: 76px;
+    }
 
-.site-nav .item:hover {
-    color: $accent-color;
+    &:hover {
+        color: $accent-color;
+    }
 }
 
 .header-link {
     color: $primary-text-color;
-}
 
-.header-link:hover {
-    color: $accent-color;
+    &:hover {
+        color: $accent-color;
+    }
 }
 
 .nav-input {
