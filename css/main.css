@@ -35,13 +35,12 @@ p {
 }
 
 .container {
-  max-width: 335px;
+  max-width: 375px;
   min-width: 320px;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
-  outline: 1px solid red;
 }
 @media screen and (min-width: 1440px) {
   .container {
@@ -251,12 +250,29 @@ p {
 }
 
 .hero {
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.hero .container {
+  max-width: 375px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+@media screen and (min-width: 1440px) {
+  .hero .container {
+    max-width: 1920px;
+  }
+}
+
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding-top: 188px;
   padding-bottom: 151px;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
-  color: #FFFFFF;
   background-image: url(/assets/img/hero-mobile.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -264,19 +280,37 @@ p {
   border: transparent;
 }
 @media screen and (min-width: 1440px) {
-  .hero {
+  .swiper-slide {
     max-width: 1920px;
     padding-top: 292px;
     padding-bottom: 367px;
-    margin-left: auto;
-    margin-right: auto;
     background-image: url(/assets/img/Rectangle\ 1.jpg);
     background-position: center;
   }
 }
 
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #FFFFFF;
+}
+
+span.swiper-pagination-bullet.swiper-pagination-bullet {
+  border: 1px solid #FFFFFF;
+}
+
+.swiper-pagination {
+  margin-bottom: 22px;
+}
 @media screen and (min-width: 1440px) {
-  .hero .container {
+  .swiper-pagination {
+    margin-bottom: 102px;
+  }
+}
+
+.hero-thumb {
+  max-width: 305px;
+}
+@media screen and (min-width: 1440px) {
+  .hero-thumb {
     max-width: 623px;
   }
 }

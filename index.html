@@ -11,7 +11,7 @@
 			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Open+Sans:wght@400;600&family=Raleway:wght@700&display=swap"
 			rel="stylesheet">
 		<link rel="stylesheet" href="./css/main.min.css">	
-		<!-- <link rel="stylesheet" href="./assets/src/css/common.css"> -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 	</head>
 	<body>
 		<!-- Header -->
@@ -22,7 +22,9 @@
 						<a href="" class="logo">LOGO</a>
 					</div>			
 				    <ul class="site-nav">
-				    	<li class="item">Produkty</li>
+				    	<li class="item">
+							<a class="header-link" href="#e-shop">Produkty</a>
+						</li>
 				    	<li class="item">Akční nabídka</li>
 				    	<li class="item">O nás</li>
 				    	<li class="item">
@@ -93,10 +95,37 @@
 		<!-- Hero -->
 		<section class="hero">
 			<div class="container">
-		    	<p class="hero-pretitle">Lorem ipsum dolor sit</p>
-		    	<h2 class="title hero-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
-                <a href="" class="button btn-hero">Zobrazit</a>
-		    </div>
+				<div class="swiper">				
+					<!-- Additional required wrapper -->
+					<div class="swiper-wrapper">
+						<!-- Slides -->
+						<div class="swiper-slide">							
+							<div class="hero-thumb">
+							    <p class="hero-pretitle">Lorem ipsum dolor sit</p>
+							    <h2 class="title hero-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+							    <a href="" class="button btn-hero">Zobrazit</a>
+						    </div>
+						</div>
+						<div class="swiper-slide">
+							<div class="hero-thumb">
+								<p class="hero-pretitle">Lorem ipsum dolor sit</p>
+								<h2 class="title hero-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+								<a href="" class="button btn-hero">Zobrazit</a>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="hero-thumb">
+								<p class="hero-pretitle">Lorem ipsum dolor sit</p>
+								<h2 class="title hero-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+								<a href="" class="button btn-hero">Zobrazit</a>
+							</div>
+						</div>
+					</div>
+					<!-- Pagination -->
+					<div class="swiper-pagination"></div>
+				</div>
+				</div>
+
 		</section>
 		<!-- Shop -->
 		<section class="shop">
@@ -159,7 +188,7 @@
 		    </div>
 		</section>
 		<!-- Our e-shop -->
-        <section class="e-shop">
+        <section class="e-shop" id="e-shop">
 			<div class="container eshop-container">
 				<ul class="btn-list">
     				<li class="btn-item">
@@ -173,6 +202,7 @@
     				</li>
 			    </ul>
 				<ul class="js-eshop-container"></ul>
+				
 				<button class="btn-products" type="button">Zobrazit více produktů</button>
 			</div>
 		</section>	
@@ -485,5 +515,7 @@
 			</div>			
 		</footer>
    	<script src="./assets/src/index.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+	<script src="./assets/src/swiper.js"></script>
 	</body>
 </html>
